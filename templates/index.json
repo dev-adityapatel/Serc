@@ -370,7 +370,7 @@
         "lookbook-0": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "earrings-04",
             "position_x": 18,
             "position_y": 50
           }
@@ -378,7 +378,7 @@
         "lookbook-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "copy-of-earrings-03",
             "position_x": 41,
             "position_y": 7
           }
@@ -390,7 +390,8 @@
       ],
       "settings": {
         "layout": "",
-        "title": "Shop the look",
+        "image": "shopify:\/\/shop_images\/Rectangle_37.png",
+        "title": "Earrings",
         "show_dots": true,
         "products_per_row": "1",
         "enable_aspect_ratio": true,
