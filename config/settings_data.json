@@ -29,6 +29,7 @@
     "btn_secondary_bg_color": "#ab8c52",
     "btn_secondary_text_color": "#ffffff",
     "btn_secondary_border_color": "#ab8c52",
+    "dots_style": "hidden",
     "product_grid_outline": false,
     "show_scroll_top_button": true,
     "product_grid_aspect_ratio": 1,
@@ -56,7 +57,10 @@
     "submenu_link_hover_color": "#AB8C52",
     "footer_link_hover": "#212121",
     "enable_free_shipping_message": true,
-    "sale_background_color": "#be563f"
+    "sale_background_color": "#be563f",
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Clean": {
