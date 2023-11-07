@@ -217,6 +217,91 @@
         "padding_bottom": 0
       }
     },
+    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Bridal",
+            "featured_collection": "bridal-designs",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "<h2>Bridal<\/h2>",
+            "color": "#fff",
+            "link_text": "View All",
+            "link": "shopify:\/\/collections",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
+          }
+        },
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2": {
+          "type": "collection",
+          "settings": {
+            "title": "Earrings",
+            "featured_collection": "earrings",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "<p>Earrings<\/p>",
+            "color": "#fff",
+            "link_text": "View All",
+            "link": "shopify:\/\/collections\/earrings",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "18222256-f1d8-4f8b-9c3a-af676f75ff05": {
+          "type": "collection",
+          "settings": {
+            "title": "Rings",
+            "featured_collection": "rings",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "<h2>Rings<\/h2>",
+            "color": "#fff",
+            "link_text": "View All",
+            "link": "shopify:\/\/collections\/rings",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1",
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2",
+        "18222256-f1d8-4f8b-9c3a-af676f75ff05"
+      ],
+      "settings": {
+        "title": "",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "lookbook": {
       "type": "section-look",
       "blocks": {
@@ -308,69 +393,6 @@
         "bg_color": "",
         "color": "#ffffff"
       }
-    },
-    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1": {
-          "type": "collection",
-          "settings": {
-            "title": "Bridal",
-            "featured_collection": "bridal-designs",
-            "show_image": true,
-            "align_with_product_images": false,
-            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "<h2>Bridal<\/h2>",
-            "color": "#fff",
-            "link_text": "View All",
-            "link": "shopify:\/\/collections",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": true
-          }
-        },
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2": {
-          "type": "collection",
-          "settings": {
-            "title": "Second collection",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1",
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2"
-      ],
-      "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": false,
-        "product_layout": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 6,
-        "grid": 4,
-        "rows": 3,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
     }
   },
   "order": [
@@ -378,8 +400,8 @@
     "2528ec9d-aaf7-47b2-a34f-c7a4445ee701",
     "64173407-12b8-4e27-8396-7d305a454494",
     "7503bc66-eb30-46bb-afc6-ee99df8ae62c",
+    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64",
     "lookbook",
-    "hero",
-    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64"
+    "hero"
   ]
 }
