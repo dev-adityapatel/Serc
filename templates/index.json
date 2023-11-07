@@ -351,45 +351,32 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Broadcast theme",
-            "heading_size": 9
+            "title": "Our Mission Redefing Luxury",
+            "heading_size": 7
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "description": "Modern commerce built for speed",
-            "text_size": 5,
+            "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "text_size": 3,
             "text_style": "font-body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "link_text": "View products",
-            "link": "shopify:\/\/collections\/all",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
           }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "text"
       ],
       "settings": {
-        "height": "screen-height-three-quarters",
+        "height": "screen-height-one-third",
         "width": "wrapper--full",
         "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "mobile_image": "shopify:\/\/shop_images\/Rectangle_46.png",
-        "flex_align_desktop": "align--middle-left-desktop",
-        "flex_align_mobile": "align--middle-left-mobile",
-        "overlay_opacity": 25,
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
         "overlay_color": "#000000",
         "show_overlay_text": false,
         "bg_color": "",
