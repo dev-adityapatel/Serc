@@ -8,22 +8,34 @@
         "footer-0": {
           "type": "newsletter",
           "settings": {
+            "title": "Newsletter",
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-            "show_name": true
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 33
           }
         },
         "footer-1": {
           "type": "linklist",
           "settings": {
             "linklist": "main-menu",
-            "title": ""
+            "title": "",
+            "column_width": 33
           }
         },
         "footer-2": {
           "type": "text",
           "settings": {
+            "image_width": 150,
             "title": "Contact",
-            "text": "<p>1234 Main Street <br>New York, NY 12345 <br> 123.456.7890<br>help@broadcast.com<\/p>"
+            "text": "<p>1234 Main Street <br>New York, NY 12345 <br> 123.456.7890<br>help@broadcast.com<\/p>",
+            "column_width": 33
           }
         }
       },
@@ -36,7 +48,10 @@
         "logo": "{{ shop.brand.logo }}",
         "logo_image_width": 150,
         "overlay_opacity": 75,
-        "overlay_color": "#ffffff"
+        "overlay_color": "#ffffff",
+        "border_color": "#212121",
+        "padding_top": 75,
+        "padding_bottom": 30
       }
     },
     "supporting-menu": {
@@ -45,7 +60,11 @@
         "linklist": "",
         "footer_payment_enable": false,
         "show_locale_selector": true,
-        "show_country_selector": true
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     }
   },
