@@ -159,6 +159,70 @@
         "padding_bottom": 50
       }
     },
+    "8131f56d-6166-423b-9f40-4da0dff91531": {
+      "type": "section-custom-content",
+      "blocks": {
+        "ab7b452d-5d33-4ea5-a5a0-b9add1b01bb0": {
+          "type": "video",
+          "settings": {
+            "show_video_popup": false,
+            "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "",
+            "heading_size": 7,
+            "description": "",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#FFFFFF"
+          }
+        },
+        "template--21531419181361__8131f56d-6166-423b-9f40-4da0dff91531-text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "Introducing",
+            "subheading_size": 3,
+            "title": "Custom content",
+            "heading_size": 8,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 4,
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "ab7b452d-5d33-4ea5-a5a0-b9add1b01bb0",
+        "template--21531419181361__8131f56d-6166-423b-9f40-4da0dff91531-text-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "7503bc66-eb30-46bb-afc6-ee99df8ae62c": {
       "type": "section-double",
       "blocks": {
@@ -203,6 +267,7 @@
         "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-text-1",
         "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "layout": "",
         "height": "image-height",
@@ -431,6 +496,7 @@
     "slideshow",
     "2528ec9d-aaf7-47b2-a34f-c7a4445ee701",
     "64173407-12b8-4e27-8396-7d305a454494",
+    "8131f56d-6166-423b-9f40-4da0dff91531",
     "7503bc66-eb30-46bb-afc6-ee99df8ae62c",
     "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64",
     "hero",
