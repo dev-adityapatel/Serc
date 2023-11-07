@@ -382,11 +382,29 @@
             "position_x": 41,
             "position_y": 7
           }
+        },
+        "97d37aba-1e19-48bc-afbb-4a7276639fb5": {
+          "type": "product",
+          "settings": {
+            "product": "earrings-05",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "75bf4ac1-62a4-4073-ad55-84928c9808b9": {
+          "type": "product",
+          "settings": {
+            "product": "earrings-06",
+            "position_x": 50,
+            "position_y": 50
+          }
         }
       },
       "block_order": [
         "lookbook-0",
-        "lookbook-1"
+        "lookbook-1",
+        "97d37aba-1e19-48bc-afbb-4a7276639fb5",
+        "75bf4ac1-62a4-4073-ad55-84928c9808b9"
       ],
       "settings": {
         "layout": "",

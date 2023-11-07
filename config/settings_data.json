@@ -33,6 +33,7 @@
     "dots_style": "hidden",
     "product_grid_outline": false,
     "show_scroll_top_button": true,
+    "overlay_text": false,
     "product_grid_aspect_ratio": 1,
     "sale_bg_color": "#f9dee5",
     "sale_text_color": "#af7b88",
