@@ -260,30 +260,6 @@
         "padding_bottom": 0
       }
     },
-    "featured-collection": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "Best Sellers",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "",
-        "style": "grid",
-        "grid": 4,
-        "rows": 2,
-        "width": "wrapper",
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "hero": {
       "type": "section-hero",
       "blocks": {
@@ -333,112 +309,67 @@
         "color": "#ffffff"
       }
     },
-    "logos": {
-      "type": "section-press-logos",
+    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64": {
+      "type": "section-tab-collections",
       "blocks": {
-        "logos-0": {
-          "type": "logo-item",
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1": {
+          "type": "collection",
           "settings": {
-            "logo_width": 100,
-            "link": "",
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "heading_size": 6
+            "title": "Bridal",
+            "featured_collection": "bridal-designs",
+            "show_image": true,
+            "align_with_product_images": false,
+            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "<h2>Bridal<\/h2>",
+            "color": "#fff",
+            "link_text": "View All",
+            "link": "shopify:\/\/collections",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": true
           }
         },
-        "logos-1": {
-          "type": "logo-item",
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2": {
+          "type": "collection",
           "settings": {
-            "logo_width": 100,
+            "title": "Second collection",
+            "featured_collection": "",
+            "show_image": true,
+            "align_with_product_images": false,
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
             "link": "",
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "heading_size": 6
-          }
-        },
-        "logos-2": {
-          "type": "logo-item",
-          "settings": {
-            "logo_width": 100,
-            "link": "",
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "heading_size": 6
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
           }
         }
       },
       "block_order": [
-        "logos-0",
-        "logos-1",
-        "logos-2"
-      ],
-      "settings": {
-        "title": "Press",
-        "enable_heading_slider": true,
-        "text_style": "font-body",
-        "logo_opacity": 60,
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "icons": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon-0": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-shield",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Secure transactions",
-            "heading_size": 4,
-            "text": "<p>Transactions are handled with bank-grade security.<p>",
-            "text_size": 3
-          }
-        },
-        "icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-recycle",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Simple checkout",
-            "heading_size": 4,
-            "text": "<p>Our secure checkout is quick and easy to use.<p>",
-            "text_size": 3
-          }
-        },
-        "icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Get in touch",
-            "heading_size": 4,
-            "text": "<p>Have questions? Get in touch with us at any time.<p>",
-            "text_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "icon-0",
-        "icon-1",
-        "icon-2"
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1",
+        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2"
       ],
       "settings": {
         "title": "",
-        "heading_size": 4,
-        "layout": "grid",
-        "grid": 3,
-        "align_text": "text-left",
-        "icon_alignment": "icon--top",
-        "align_columns": "flex-align-top",
-        "width": "wrapper--full-padded",
-        "bg_color": "#fafafa",
+        "text": "",
+        "layout": "stacked",
+        "show_product_count": false,
+        "product_layout": "slider",
+        "layout_mobile": "slider",
+        "product_limit": 6,
+        "grid": 4,
+        "rows": 3,
+        "bg_color": "",
         "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "layout_mobile": "carousel"
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     }
   },
@@ -448,9 +379,7 @@
     "64173407-12b8-4e27-8396-7d305a454494",
     "7503bc66-eb30-46bb-afc6-ee99df8ae62c",
     "lookbook",
-    "featured-collection",
     "hero",
-    "logos",
-    "icons"
+    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64"
   ]
 }
