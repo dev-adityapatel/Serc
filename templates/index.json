@@ -382,6 +382,64 @@
         "padding_bottom": 50,
         "layout_mobile": "carousel"
       }
+    },
+    "7503bc66-eb30-46bb-afc6-ee99df8ae62c": {
+      "type": "section-double",
+      "blocks": {
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Introducing",
+            "text_size": 3
+          }
+        },
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Create Your Own Design",
+            "text_size": 8
+          }
+        },
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporus incididunt ut labore et dolore magna aliqua. Amet nisl suscipitis adipiscing bibendum est ultricies integer. <br\/>Amet nulla facilisi morbi tempus iaculis urna. Tempus urna et pharetra pharetrausis massa massa ultricies suis amet.<\/p>",
+            "text_size": 4,
+            "text_style": "font-body"
+          }
+        },
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Custom Design",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-subheading-1",
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-heading-1",
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-text-1",
+        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-buttons-1"
+      ],
+      "settings": {
+        "layout": "",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/9151.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -392,6 +450,7 @@
     "featured-collection",
     "hero",
     "logos",
-    "icons"
+    "icons",
+    "7503bc66-eb30-46bb-afc6-ee99df8ae62c"
   ]
 }
