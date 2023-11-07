@@ -135,66 +135,28 @@
         "padding_bottom": 0
       }
     },
-    "tabs": {
-      "type": "section-tab-collections",
-      "blocks": {
-        "tabs-0": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        },
-        "tabs-1": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "featured_collection": "",
-            "show_image": true,
-            "align_with_product_images": false,
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "description": "",
-            "color": "#fff",
-            "link_text": "View products",
-            "link": "",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "tabs-0",
-        "tabs-1"
-      ],
+    "64173407-12b8-4e27-8396-7d305a454494": {
+      "type": "section-collection",
       "settings": {
-        "title": "",
-        "text": "",
-        "layout": "stacked",
-        "show_product_count": false,
-        "product_layout": "slider",
-        "layout_mobile": "slider",
-        "product_limit": 6,
+        "heading": "Best Sellers",
+        "description": "",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "featured_collection": "necklace",
+        "style": "grid",
         "grid": 4,
         "rows": 3,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "lookbook": {
@@ -425,7 +387,7 @@
   "order": [
     "slideshow",
     "2528ec9d-aaf7-47b2-a34f-c7a4445ee701",
-    "tabs",
+    "64173407-12b8-4e27-8396-7d305a454494",
     "lookbook",
     "featured-collection",
     "hero",
