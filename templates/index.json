@@ -508,7 +508,7 @@
             "align_text": "text-center",
             "bg_color": "",
             "color": "",
-            "show_name": true,
+            "show_name": false,
             "button_text": "Join",
             "show_arrow": false,
             "terms": false,
