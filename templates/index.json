@@ -214,8 +214,8 @@
         "template--21531419181361__8131f56d-6166-423b-9f40-4da0dff91531-text-1"
       ],
       "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "width": "wrapper--full-padded",
         "borders": false,
         "gutters": false,
