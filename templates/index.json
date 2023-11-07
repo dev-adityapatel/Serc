@@ -123,8 +123,8 @@
         "287824c8-0953-43f2-b561-d954759022a4"
       ],
       "settings": {
-        "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "overlay_opacity": 20,
         "overlay_color": "#000",
         "show_overlay_text": false,
