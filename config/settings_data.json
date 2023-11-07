@@ -31,6 +31,7 @@
     "btn_secondary_border_color": "#ab8c52",
     "grid_style": "classic",
     "dots_style": "hidden",
+    "show_gray_bg": false,
     "product_grid_outline": false,
     "show_scroll_top_button": true,
     "overlay_text": false,
