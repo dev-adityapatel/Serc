@@ -340,6 +340,30 @@
         "color": "#ffffff"
       }
     },
+    "45d1470f-d07b-43c0-9243-225170675856": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "The Bracelets Collection",
+        "description": "<p>Recycled gold, AAA-grade gemstones, and ethically sourced diamonds<\/p>",
+        "layout": "center",
+        "link_text": "View All",
+        "link_url": "",
+        "button_type": "btn--primary",
+        "button_size": "btn--large",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "bracelets",
+        "style": "grid",
+        "grid": 4,
+        "rows": 1,
+        "width": "wrapper--full-padded",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "lookbook": {
       "type": "section-look",
       "blocks": {
@@ -391,6 +415,7 @@
     "7503bc66-eb30-46bb-afc6-ee99df8ae62c",
     "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64",
     "hero",
+    "45d1470f-d07b-43c0-9243-225170675856",
     "lookbook"
   ]
 }
