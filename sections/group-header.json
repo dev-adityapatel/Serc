@@ -1,0 +1,43 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "toolbar": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Toolbar<\/p>",
+            "show_social_links": true,
+            "show_gift_card": true,
+            "show_locale_selector": true,
+            "show_country_selector": true,
+            "bg_color": "#fafafa",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "toolbar"
+      ],
+      "settings": {
+        "header_style": "logo_beside",
+        "logo": "{{ shop.brand.logo }}"
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "settings": {
+        "layout": "slider",
+        "bg_color": "#f7f7f7",
+        "color": "#545454"
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
