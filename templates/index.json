@@ -302,6 +302,44 @@
         "padding_bottom": 32
       }
     },
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Mission Redefing Luxury",
+            "heading_size": 7
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "text_size": 3,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
     "lookbook": {
       "type": "section-look",
       "blocks": {
@@ -344,44 +382,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "hero": {
-      "type": "section-hero",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Our Mission Redefing Luxury",
-            "heading_size": 7
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "text_size": 3,
-            "text_style": "font-body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "height": "screen-height-one-third",
-        "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
-        "link": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 50,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff"
-      }
     }
   },
   "order": [
@@ -390,7 +390,7 @@
     "64173407-12b8-4e27-8396-7d305a454494",
     "7503bc66-eb30-46bb-afc6-ee99df8ae62c",
     "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64",
-    "lookbook",
-    "hero"
+    "hero",
+    "lookbook"
   ]
 }
