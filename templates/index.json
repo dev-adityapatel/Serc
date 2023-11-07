@@ -490,6 +490,46 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "ff47098f-7e17-4122-85c0-d8aa64cb57b8": {
+      "type": "section-newsletter",
+      "blocks": {
+        "template--21531419181361__ff47098f-7e17-4122-85c0-d8aa64cb57b8-newsletter-1": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Sign up",
+            "heading_size": 7,
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "show_name": true,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21531419181361__ff47098f-7e17-4122-85c0-d8aa64cb57b8-newsletter-1"
+      ],
+      "settings": {
+        "height": "three-fifty-height-hero",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -501,6 +541,7 @@
     "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64",
     "hero",
     "45d1470f-d07b-43c0-9243-225170675856",
-    "lookbook"
+    "lookbook",
+    "ff47098f-7e17-4122-85c0-d8aa64cb57b8"
   ]
 }
