@@ -79,24 +79,48 @@
     "2528ec9d-aaf7-47b2-a34f-c7a4445ee701": {
       "type": "section-collections-list-hover",
       "blocks": {
-        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
         "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bridal-designs",
+            "title": ""
+          }
+        },
+        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "title": ""
+          }
+        },
+        "cf5ef1c2-2dde-435f-b295-09a381b6ca01": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "title": ""
+          }
+        },
+        "c8c8b098-3e09-40a4-a7e4-131874691d36": {
+          "type": "collection",
+          "settings": {
+            "collection": "necklace",
+            "title": ""
+          }
+        },
+        "287824c8-0953-43f2-b561-d954759022a4": {
+          "type": "collection",
+          "settings": {
+            "collection": "earrings",
             "title": ""
           }
         }
       },
       "block_order": [
+        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-2",
         "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-1",
-        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-2"
+        "cf5ef1c2-2dde-435f-b295-09a381b6ca01",
+        "c8c8b098-3e09-40a4-a7e4-131874691d36",
+        "287824c8-0953-43f2-b561-d954759022a4"
       ],
       "settings": {
         "height": "screen-height-three-quarters",
