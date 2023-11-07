@@ -327,7 +327,7 @@
       ],
       "settings": {
         "height": "screen-height-one-third",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
