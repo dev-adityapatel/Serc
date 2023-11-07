@@ -165,6 +165,7 @@
         "ab7b452d-5d33-4ea5-a5a0-b9add1b01bb0": {
           "type": "video",
           "settings": {
+            "video": "shopify:\/\/files\/videos\/Yellow Diamond 3 stone Engagement Ring Vido.mp4",
             "show_video_popup": false,
             "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "overlay_opacity": 0,
