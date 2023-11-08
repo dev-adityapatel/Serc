@@ -4,6 +4,23 @@
   "sections": {
     "announcement": {
       "type": "announcement",
+      "blocks": {
+        "e2f9c205-046a-44dc-a395-33366aa65f2f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free Shipping for Order Above $500\/-<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "e2f9c205-046a-44dc-a395-33366aa65f2f"
+      ],
       "settings": {
         "show_border": false,
         "layout": "slider",
@@ -13,8 +30,8 @@
         "marquee_speed": 100,
         "message_spacing": 10,
         "text_size": 2,
-        "bg_color": "#f7f7f7",
-        "color": "#545454"
+        "bg_color": "#212121",
+        "color": "#ffffff"
       }
     },
     "header": {
@@ -60,7 +77,7 @@
         "show_country_name": false,
         "show_country_flag": false,
         "highlight_item": "Sale",
-        "highlight_item_color": "#D02E2E",
+        "highlight_item_color": "#d02e2e",
         "transparent_home": false,
         "transparent_collection": false,
         "transparent_article": false,
