@@ -4,6 +4,7 @@
   "sections": {
     "cookie": {
       "type": "overlay-cookie",
+      "disabled": true,
       "settings": {
         "show_cookies_popup": true,
         "position": "popup-cookies--left"
