@@ -75,6 +75,41 @@
         "autoplay_speed": 8
       }
     },
+    "a83e7c23-04fd-4964-ac00-a10e4964589f": {
+      "type": "section-image-collection",
+      "blocks": {
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bridal-designs",
+            "title": ""
+          }
+        },
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "diamonds",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-1",
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 20,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "heading_size": 7,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "docs": {
       "type": "section-rich-text",
       "blocks": {
@@ -580,6 +615,7 @@
   },
   "order": [
     "slideshow",
+    "a83e7c23-04fd-4964-ac00-a10e4964589f",
     "docs",
     "image-with-text",
     "product-with-image",
