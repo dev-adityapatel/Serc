@@ -76,6 +76,41 @@
         "autoplay_speed": 8
       }
     },
+    "562e6665-dbfe-495a-96a3-72eb2e42b583": {
+      "type": "section-image-collection",
+      "blocks": {
+        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bridal-designs",
+            "title": ""
+          }
+        },
+        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "earrings",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-1",
+        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-2"
+      ],
+      "settings": {
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "overlay_opacity": 20,
+        "overlay_color": "#000",
+        "show_overlay_text": false,
+        "heading_size": 7,
+        "bg_color": "",
+        "color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "2528ec9d-aaf7-47b2-a34f-c7a4445ee701": {
       "type": "section-collections-list-hover",
       "blocks": {
@@ -122,6 +157,7 @@
         "c8c8b098-3e09-40a4-a7e4-131874691d36",
         "287824c8-0953-43f2-b561-d954759022a4"
       ],
+      "disabled": true,
       "settings": {
         "height": "image-height",
         "mobile_height": "image-height--mobile",
@@ -531,45 +567,11 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "20cc9f5a-c719-401d-98ab-2d2caa16aea2": {
-      "type": "manjesh",
-      "blocks": {
-        "template--21531419181361__20cc9f5a-c719-401d-98ab-2d2caa16aea2-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        },
-        "template--21531419181361__20cc9f5a-c719-401d-98ab-2d2caa16aea2-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21531419181361__20cc9f5a-c719-401d-98ab-2d2caa16aea2-collection-1",
-        "template--21531419181361__20cc9f5a-c719-401d-98ab-2d2caa16aea2-collection-2"
-      ],
-      "settings": {
-        "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "overlay_opacity": 20,
-        "overlay_color": "#000",
-        "show_overlay_text": false,
-        "heading_size": 7,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "slideshow",
+    "562e6665-dbfe-495a-96a3-72eb2e42b583",
     "2528ec9d-aaf7-47b2-a34f-c7a4445ee701",
     "64173407-12b8-4e27-8396-7d305a454494",
     "8131f56d-6166-423b-9f40-4da0dff91531",
@@ -578,7 +580,6 @@
     "hero",
     "45d1470f-d07b-43c0-9243-225170675856",
     "lookbook",
-    "ff47098f-7e17-4122-85c0-d8aa64cb57b8",
-    "20cc9f5a-c719-401d-98ab-2d2caa16aea2"
+    "ff47098f-7e17-4122-85c0-d8aa64cb57b8"
   ]
 }
