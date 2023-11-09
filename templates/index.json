@@ -135,168 +135,28 @@
         "padding_bottom": 0
       }
     },
-    "docs": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Newly Updated",
-            "text_size": 3
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Broadcast Documentation",
-            "text_size": 7
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Broadcast has been extensively documented to help you learn what's possible and get the most out of the theme.  Learn how to set up advanced menus, color swatches, sophisticated cart upsells, and more.<\/p>",
-            "text_size": 3,
-            "text_style": "font-body"
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "See the new Broadcast docs",
-            "button_url": "https:\/\/broadcast.invisiblethemes.com\/",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "buttons"
-      ],
+    "featured-collection": {
+      "type": "section-collection",
       "settings": {
+        "heading": "The Necklaces Collection",
+        "description": "<p>Recycled gold, AAA-grade gemstones, and ethically sourced diamonds<\/p>",
+        "layout": "center",
+        "link_text": "View All",
+        "link_url": "shopify:\/\/collections\/necklace",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "necklace",
+        "style": "grid",
+        "grid": 4,
+        "rows": 2,
         "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "#ffffff",
+        "layout_mobile": "carousel",
+        "bg_color": "",
         "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "image-with-text": {
-      "type": "section-custom-content",
-      "blocks": {
-        "image": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "show_overlay_text": false,
-            "title": "",
-            "heading_size": 7,
-            "description": "",
-            "text_size": 3,
-            "flex_align": "align--middle-left",
-            "bg_color": "",
-            "color": "#ffffff",
-            "link_text": "",
-            "link": "shopify:\/\/collections\/all",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "subheading": "Delete your apps",
-            "subheading_size": 3,
-            "title": "Broadcast has that feature",
-            "heading_size": 7,
-            "text": "<p>Upsells, promos, shipping calculators, Broadcast has it all. Try deleting this block and replacing it with a collection, newsletter, video, or testimonial. Broadcast has the power and flexibility you need.<\/p>",
-            "text_size": 3,
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "#ffffff",
-            "color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image",
-        "text"
-      ],
-      "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full-padded",
-        "borders": false,
-        "gutters": false,
-        "reverse_blocks": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "product-with-image": {
-      "type": "section-custom-content",
-      "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "title": "Sell with style",
-            "product": "",
-            "bg_color": "#ffffff",
-            "color": ""
-          }
-        },
-        "image": {
-          "type": "image",
-          "settings": {
-            "overlay_opacity": 0,
-            "overlay_color": "#000",
-            "show_overlay_text": false,
-            "title": "Commerce first",
-            "heading_size": 7,
-            "description": "Focus on your products with innovative sections focused on selling",
-            "text_size": 3,
-            "flex_align": "align--middle-center",
-            "bg_color": "",
-            "color": "#FFFFFF",
-            "link_text": "",
-            "link": "shopify:\/\/collections\/all",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "product",
-        "image"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "screen-height-one-half",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full-padded",
-        "borders": false,
-        "gutters": false,
-        "reverse_blocks": false,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "tabs": {
@@ -361,58 +221,6 @@
         "padding_bottom": 32
       }
     },
-    "rich-text": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Time is money",
-            "text_size": 3
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Built for speed",
-            "text_size": 8
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Broadcast was built from the ground up to take advantage of modern development techniques that make your site run as fast as possible.  Using progressive technique like image lazy-loading, code splitting, and preloading, Broadcast is the fast and nimble platform your store needs to level up.  Customers are not patient, and you should not be settling for less.<\/p>",
-            "text_size": 3,
-            "text_style": "font-body"
-          }
-        },
-        "buttons": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Ready set go",
-            "button_url": "shopify:\/\/collections",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "subheading",
-        "heading",
-        "text",
-        "buttons"
-      ],
-      "settings": {
-        "width": "wrapper",
-        "align_text": "text-left",
-        "bg_color": "#ffffff",
-        "color": "",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "lookbook": {
       "type": "section-look",
       "blocks": {
@@ -454,30 +262,6 @@
         "dot_background": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "featured-collection": {
-      "type": "section-collection",
-      "settings": {
-        "heading": "Best Sellers",
-        "description": "",
-        "layout": "inline",
-        "link_text": "",
-        "link_url": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "featured_collection": "",
-        "style": "grid",
-        "grid": 4,
-        "rows": 2,
-        "width": "wrapper",
-        "layout_mobile": "carousel",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
       }
     },
     "hero": {
@@ -641,13 +425,9 @@
   "order": [
     "slideshow",
     "a83e7c23-04fd-4964-ac00-a10e4964589f",
-    "docs",
-    "image-with-text",
-    "product-with-image",
-    "tabs",
-    "rich-text",
-    "lookbook",
     "featured-collection",
+    "tabs",
+    "lookbook",
     "hero",
     "logos",
     "icons"
