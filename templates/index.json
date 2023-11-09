@@ -159,6 +159,71 @@
         "padding_bottom": 50
       }
     },
+    "4a7fd95b-74e3-4fcf-b1c9-3602104752e6": {
+      "type": "section-custom-content",
+      "blocks": {
+        "a300eaf3-d271-467c-a892-f597b3b0454f": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Yellow Diamond 3 stone Engagement Ring Vido.mp4",
+            "show_video_popup": false,
+            "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "show_overlay_text": false,
+            "title": "Video",
+            "heading_size": 7,
+            "description": "Tell your brand's story through images.",
+            "text_size": 3,
+            "flex_align": "align--middle-center",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "bg_color": "",
+            "color": "#FFFFFF"
+          }
+        },
+        "template--21545344598321__4a7fd95b-74e3-4fcf-b1c9-3602104752e6-text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 3,
+            "title": "Custom content",
+            "heading_size": 8,
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
+            "text_size": 4,
+            "button_text": "Custom Design",
+            "button_url": "",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "a300eaf3-d271-467c-a892-f597b3b0454f",
+        "template--21545344598321__4a7fd95b-74e3-4fcf-b1c9-3602104752e6-text-1"
+      ],
+      "settings": {
+        "height": "screen-height-one-half",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full-padded",
+        "borders": false,
+        "gutters": false,
+        "reverse_blocks": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "tabs": {
       "type": "section-tab-collections",
       "blocks": {
@@ -426,6 +491,7 @@
     "slideshow",
     "a83e7c23-04fd-4964-ac00-a10e4964589f",
     "featured-collection",
+    "4a7fd95b-74e3-4fcf-b1c9-3602104752e6",
     "tabs",
     "lookbook",
     "hero",
