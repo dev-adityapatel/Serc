@@ -14,7 +14,6 @@
   {%- endunless -%}
 
   {{ 'theme.css' | asset_url | preload_tag: as: 'style' }}
-   {{ 'caruso.css' | asset_url | preload_tag: as: 'style' }}
   {{ 'vendor.js' | asset_url | preload_tag: as: 'script' }}
   {{ 'theme.js' | asset_url | preload_tag: as: 'script' }}
 
@@ -227,7 +226,8 @@
   <!-- Shopify app scripts =========================================================== -->
 
   {{ content_for_header }}
-
+  {{ 'caruso.css' | asset_url | preload_tag: as: 'style' }}
+  {{ 'ced-custom.css' | asset_url | preload_tag: as: 'style' }}
 </head>
 
 <body id="{{ page_title | handle }}" class="template-{{ template.name | handle }} grid-{{ settings.grid_style }}{% if customer %} customer-logged-in{% endif %}{% if settings.animations_enable %} aos-initialized{% endif %}{% if settings.product_grid_outline %} has-line-design{% endif %}" data-animations="{{ settings.animations_enable }}">
