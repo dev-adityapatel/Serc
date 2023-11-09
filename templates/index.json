@@ -377,7 +377,7 @@
         "lookbook-0": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "bracelet-02",
             "position_x": 18,
             "position_y": 50
           }
@@ -385,18 +385,37 @@
         "lookbook-1": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "bracelet-01",
             "position_x": 41,
             "position_y": 7
+          }
+        },
+        "b25a4e1a-b4cc-41d0-b61f-c5148980de97": {
+          "type": "product",
+          "settings": {
+            "product": "bracelet-03",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "09e27605-c7f9-4e53-b50d-36e1c0c629ba": {
+          "type": "product",
+          "settings": {
+            "product": "bracelet-04",
+            "position_x": 50,
+            "position_y": 50
           }
         }
       },
       "block_order": [
         "lookbook-0",
-        "lookbook-1"
+        "lookbook-1",
+        "b25a4e1a-b4cc-41d0-b61f-c5148980de97",
+        "09e27605-c7f9-4e53-b50d-36e1c0c629ba"
       ],
       "settings": {
         "layout": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_37.png",
         "title": "Shop the look",
         "show_dots": true,
         "products_per_row": "1",
