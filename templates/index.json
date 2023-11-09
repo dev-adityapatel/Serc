@@ -8,12 +8,12 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slideshow.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
+            "overlay_color": "#000",
             "show_overlay_text": false,
             "title": "Cherished Treasures: Exploring the World of Necklaces",
-            "heading_size": 9,
+            "heading_size": 8,
             "description": "The Kosmis ring is a remarkable piece of jewelry that traces its roots back to the 8th to 10th century in Java.",
-            "text_size": 5,
+            "text_size": 3,
             "flex_align_desktop": "align--middle-left-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "bg_color": "",
@@ -21,7 +21,7 @@
             "first_button_text": "Shop Now",
             "first_button_link": "shopify:\/\/collections\/all",
             "first_button_type": "btn--secondary",
-            "first_button_size": "",
+            "first_button_size": "btn--large",
             "first_button_style": "btn--solid",
             "first_button_show_arrow": false,
             "second_button_text": "",
@@ -32,25 +32,25 @@
             "second_button_show_arrow": false
           }
         },
-        "slideshow-1": {
+        "096fe2c8-e40b-4e09-a2e7-b64076180b3d": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
+            "overlay_color": "#000",
             "show_overlay_text": false,
-            "title": "Broadcast theme",
-            "heading_size": 11,
-            "description": "It's like your last theme, except it's faster and better",
-            "text_size": 5,
-            "flex_align_desktop": "align--middle-center-desktop",
+            "title": "Cherished Treasures: Exploring the World of Necklaces",
+            "heading_size": 8,
+            "description": "The Kosmis ring is a remarkable piece of jewelry that traces its roots back to the 8th to 10th century in Java.",
+            "text_size": 3,
+            "flex_align_desktop": "align--middle-left-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "bg_color": "",
-            "color": "#ffffff",
-            "first_button_text": "View products",
-            "first_button_link": "shopify:\/\/collections\/all",
-            "first_button_type": "btn--white",
-            "first_button_size": "btn--large",
+            "color": "#212121",
+            "first_button_text": "Shop Now",
+            "first_button_link": "",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "",
             "first_button_style": "btn--solid",
             "first_button_show_arrow": false,
             "second_button_text": "",
@@ -64,29 +64,50 @@
       },
       "block_order": [
         "slideshow-0",
-        "slideshow-1"
+        "096fe2c8-e40b-4e09-a2e7-b64076180b3d"
       ],
       "settings": {
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-three-quarters--mobile",
         "width": "wrapper--full",
         "transition": "slide",
-        "show_arrows": false,
+        "show_arrows": true,
         "autoplay": false,
         "autoplay_speed": 8
       }
     },
-    "562e6665-dbfe-495a-96a3-72eb2e42b583": {
+    "a83e7c23-04fd-4964-ac00-a10e4964589f": {
       "type": "section-image-collection",
       "blocks": {
-        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-1": {
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-1": {
           "type": "collection",
           "settings": {
             "collection": "bridal-designs",
             "title": ""
           }
         },
-        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-2": {
+        "baecf738-2016-4b96-be10-94a2ecedabda": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "title": ""
+          }
+        },
+        "29616b53-b503-457b-bfcf-bb0cf5c227f9": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "title": ""
+          }
+        },
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "necklace",
+            "title": ""
+          }
+        },
+        "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a": {
           "type": "collection",
           "settings": {
             "collection": "earrings",
@@ -95,8 +116,11 @@
         }
       },
       "block_order": [
-        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-1",
-        "template--21531419181361__562e6665-dbfe-495a-96a3-72eb2e42b583-collection-2"
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-1",
+        "baecf738-2016-4b96-be10-94a2ecedabda",
+        "29616b53-b503-457b-bfcf-bb0cf5c227f9",
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2",
+        "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a"
       ],
       "settings": {
         "height": "screen-height-three-quarters",
@@ -111,83 +135,23 @@
         "padding_bottom": 0
       }
     },
-    "2528ec9d-aaf7-47b2-a34f-c7a4445ee701": {
-      "type": "section-collections-list-hover",
-      "blocks": {
-        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "bridal-designs",
-            "title": ""
-          }
-        },
-        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "bracelets",
-            "title": ""
-          }
-        },
-        "cf5ef1c2-2dde-435f-b295-09a381b6ca01": {
-          "type": "collection",
-          "settings": {
-            "collection": "rings",
-            "title": ""
-          }
-        },
-        "c8c8b098-3e09-40a4-a7e4-131874691d36": {
-          "type": "collection",
-          "settings": {
-            "collection": "necklace",
-            "title": ""
-          }
-        },
-        "287824c8-0953-43f2-b561-d954759022a4": {
-          "type": "collection",
-          "settings": {
-            "collection": "earrings",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-2",
-        "template--21531419181361__2528ec9d-aaf7-47b2-a34f-c7a4445ee701-collection-1",
-        "cf5ef1c2-2dde-435f-b295-09a381b6ca01",
-        "c8c8b098-3e09-40a4-a7e4-131874691d36",
-        "287824c8-0953-43f2-b561-d954759022a4"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "overlay_opacity": 20,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "heading_size": 7,
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "64173407-12b8-4e27-8396-7d305a454494": {
+    "featured-collection": {
       "type": "section-collection",
       "settings": {
-        "heading": "The Necklace Collection",
+        "heading": "The Necklaces Collection",
         "description": "<p>Recycled gold, AAA-grade gemstones, and ethically sourced diamonds<\/p>",
         "layout": "center",
         "link_text": "View All",
         "link_url": "shopify:\/\/collections\/necklace",
         "button_type": "btn--primary",
-        "button_size": "btn--large",
+        "button_size": "",
         "button_style": "btn--text",
         "show_arrow": false,
         "featured_collection": "necklace",
         "style": "grid",
         "grid": 4,
         "rows": 2,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
@@ -195,17 +159,17 @@
         "padding_bottom": 50
       }
     },
-    "8131f56d-6166-423b-9f40-4da0dff91531": {
+    "4a7fd95b-74e3-4fcf-b1c9-3602104752e6": {
       "type": "section-custom-content",
       "blocks": {
-        "ab7b452d-5d33-4ea5-a5a0-b9add1b01bb0": {
+        "a300eaf3-d271-467c-a892-f597b3b0454f": {
           "type": "video",
           "settings": {
             "video": "shopify:\/\/files\/videos\/Yellow Diamond 3 stone Engagement Ring Vido.mp4",
             "show_video_popup": false,
             "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
+            "overlay_color": "#000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 7,
@@ -219,17 +183,17 @@
             "button_style": "btn--solid",
             "show_arrow": false,
             "bg_color": "",
-            "color": "#ffffff"
+            "color": "#FFFFFF"
           }
         },
-        "template--21531419181361__8131f56d-6166-423b-9f40-4da0dff91531-text-1": {
+        "template--21545344598321__4a7fd95b-74e3-4fcf-b1c9-3602104752e6-text-1": {
           "type": "text",
           "settings": {
             "subheading": "",
             "subheading_size": 3,
-            "title": "Create Your Own Design",
+            "title": "Custom content",
             "heading_size": 8,
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporus incididunt ut labore et dolore magna aliqua. Amet nisl suscipitis adipiscing bibendum est ultricies integer.  Amet nulla facilisi morbi tempus iaculis urna. Tempus urna et pharetra pharetrausis massa massa ultricies suis amet.<\/p>",
+            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.<\/p>",
             "text_size": 4,
             "button_text": "Custom Design",
             "button_url": "",
@@ -246,8 +210,8 @@
         }
       },
       "block_order": [
-        "ab7b452d-5d33-4ea5-a5a0-b9add1b01bb0",
-        "template--21531419181361__8131f56d-6166-423b-9f40-4da0dff91531-text-1"
+        "a300eaf3-d271-467c-a892-f597b3b0454f",
+        "template--21545344598321__4a7fd95b-74e3-4fcf-b1c9-3602104752e6-text-1"
       ],
       "settings": {
         "height": "image-height",
@@ -260,122 +224,63 @@
         "padding_bottom": 0
       }
     },
-    "7503bc66-eb30-46bb-afc6-ee99df8ae62c": {
-      "type": "section-double",
-      "blocks": {
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Introducing",
-            "text_size": 3
-          }
-        },
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-heading-1": {
-          "type": "heading",
-          "settings": {
-            "title": "Create Your Own Design",
-            "text_size": 8
-          }
-        },
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporus incididunt ut labore et dolore magna aliqua. Amet nisl suscipitis adipiscing bibendum est ultricies integer. <br\/>Amet nulla facilisi morbi tempus iaculis urna. Tempus urna et pharetra pharetrausis massa massa ultricies suis amet.<\/p>",
-            "text_size": 4,
-            "text_style": "font-body"
-          }
-        },
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "Custom Design",
-            "button_url": "",
-            "button_type": "btn--secondary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-subheading-1",
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-heading-1",
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-text-1",
-        "template--21531419181361__7503bc66-eb30-46bb-afc6-ee99df8ae62c-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "layout": "",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/9151.jpg",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "bg_color": "",
-        "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64": {
+    "tabs": {
       "type": "section-tab-collections",
       "blocks": {
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1": {
+        "tabs-0": {
           "type": "collection",
           "settings": {
             "title": "Bridal",
             "featured_collection": "bridal-designs",
             "show_image": true,
-            "align_with_product_images": false,
+            "align_with_product_images": true,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "<h2>Bridal<\/h2>",
-            "color": "#ffffff",
-            "link_text": "View All",
-            "link": "shopify:\/\/collections",
-            "button_type": "btn--white",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": true
-          }
-        },
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2": {
-          "type": "collection",
-          "settings": {
-            "title": "Gemstones",
-            "featured_collection": "gemstones",
-            "show_image": true,
-            "align_with_product_images": false,
-            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
-            "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "<p>Earrings<\/p>",
-            "color": "#ffffff",
-            "link_text": "View All",
-            "link": "shopify:\/\/collections\/earrings",
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--outline",
             "show_arrow": false
           }
         },
-        "18222256-f1d8-4f8b-9c3a-af676f75ff05": {
+        "tabs-1": {
           "type": "collection",
           "settings": {
-            "title": "Rings",
+            "title": "Ring",
             "featured_collection": "rings",
             "show_image": true,
-            "align_with_product_images": false,
+            "align_with_product_images": true,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
-            "description": "<h2>Rings<\/h2>",
-            "color": "#ffffff",
-            "link_text": "View All",
-            "link": "shopify:\/\/collections\/rings",
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--white",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false
+          }
+        },
+        "b4821daf-4576-4e4e-9a61-0305a8dab94f": {
+          "type": "collection",
+          "settings": {
+            "title": "Necklaces",
+            "featured_collection": "necklace",
+            "show_image": true,
+            "align_with_product_images": true,
+            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "description": "",
+            "color": "#fff",
+            "link_text": "View products",
+            "link": "",
             "button_type": "btn--white",
             "button_size": "",
             "button_style": "btn--outline",
@@ -384,9 +289,9 @@
         }
       },
       "block_order": [
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-1",
-        "template--21531419181361__f1e72bf8-bd4b-4749-b3ec-42d72d89bd64-collection-2",
-        "18222256-f1d8-4f8b-9c3a-af676f75ff05"
+        "tabs-0",
+        "tabs-1",
+        "b4821daf-4576-4e4e-9a61-0305a8dab94f"
       ],
       "settings": {
         "title": "Designed for Everyday Glamour",
@@ -395,8 +300,8 @@
         "show_product_count": false,
         "product_layout": "slider",
         "layout_mobile": "slider",
-        "product_limit": 12,
-        "grid": 3,
+        "product_limit": 6,
+        "grid": 4,
         "rows": 3,
         "bg_color": "",
         "color": "",
@@ -410,15 +315,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Our Mission Redefing Luxury",
-            "heading_size": 7
+            "title": "Broadcast theme",
+            "heading_size": 9
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-            "text_size": 3,
+            "description": "Modern commerce built for speed",
+            "text_size": 5,
             "text_style": "font-body"
           }
         }
@@ -429,7 +334,7 @@
       ],
       "settings": {
         "height": "screen-height-one-third",
-        "width": "wrapper--full-padded",
+        "width": "wrapper--full",
         "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
@@ -442,23 +347,23 @@
         "color": "#ffffff"
       }
     },
-    "45d1470f-d07b-43c0-9243-225170675856": {
+    "2d430466-df19-4bf3-8450-2be6a0ae84e5": {
       "type": "section-collection",
       "settings": {
-        "heading": "The Bracelets Collection",
+        "heading": "The Barcelets Collection",
         "description": "<p>Recycled gold, AAA-grade gemstones, and ethically sourced diamonds<\/p>",
         "layout": "center",
         "link_text": "View All",
-        "link_url": "",
+        "link_url": "shopify:\/\/collections\/necklace",
         "button_type": "btn--primary",
-        "button_size": "btn--large",
+        "button_size": "",
         "button_style": "btn--text",
         "show_arrow": false,
         "featured_collection": "bracelets",
         "style": "grid",
         "grid": 4,
         "rows": 1,
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
@@ -472,7 +377,7 @@
         "lookbook-0": {
           "type": "product",
           "settings": {
-            "product": "earrings-04",
+            "product": "bracelet-02",
             "position_x": 18,
             "position_y": 50
           }
@@ -480,23 +385,23 @@
         "lookbook-1": {
           "type": "product",
           "settings": {
-            "product": "copy-of-earrings-03",
+            "product": "bracelet-01",
             "position_x": 41,
             "position_y": 7
           }
         },
-        "97d37aba-1e19-48bc-afbb-4a7276639fb5": {
+        "b25a4e1a-b4cc-41d0-b61f-c5148980de97": {
           "type": "product",
           "settings": {
-            "product": "earrings-05",
+            "product": "bracelet-03",
             "position_x": 50,
             "position_y": 50
           }
         },
-        "75bf4ac1-62a4-4073-ad55-84928c9808b9": {
+        "09e27605-c7f9-4e53-b50d-36e1c0c629ba": {
           "type": "product",
           "settings": {
-            "product": "earrings-06",
+            "product": "bracelet-04",
             "position_x": 50,
             "position_y": 50
           }
@@ -505,13 +410,13 @@
       "block_order": [
         "lookbook-0",
         "lookbook-1",
-        "97d37aba-1e19-48bc-afbb-4a7276639fb5",
-        "75bf4ac1-62a4-4073-ad55-84928c9808b9"
+        "b25a4e1a-b4cc-41d0-b61f-c5148980de97",
+        "09e27605-c7f9-4e53-b50d-36e1c0c629ba"
       ],
       "settings": {
         "layout": "",
         "image": "shopify:\/\/shop_images\/Rectangle_37.png",
-        "title": "Earrings",
+        "title": "Shop the look",
         "show_dots": true,
         "products_per_row": "1",
         "enable_aspect_ratio": true,
@@ -528,24 +433,24 @@
         "padding_bottom": 0
       }
     },
-    "ff47098f-7e17-4122-85c0-d8aa64cb57b8": {
+    "5b08c863-48c5-477e-9140-c13f19a2d494": {
       "type": "section-newsletter",
       "blocks": {
-        "template--21531419181361__ff47098f-7e17-4122-85c0-d8aa64cb57b8-newsletter-1": {
+        "template--21545344598321__5b08c863-48c5-477e-9140-c13f19a2d494-newsletter-1": {
           "type": "newsletter",
           "settings": {
-            "subheading": "",
+            "subheading": "Newsletter",
             "subheading_size": 3,
-            "heading": "Subscribe To Our Newsletter",
+            "heading": "Sign up",
             "heading_size": 7,
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
             "text_size": 3,
             "text_columns": 1,
             "align_text": "text-center",
             "bg_color": "",
             "color": "",
             "show_name": false,
-            "button_text": "",
+            "button_text": "Join",
             "show_arrow": false,
             "terms": false,
             "button_type": "btn--primary",
@@ -556,11 +461,11 @@
         }
       },
       "block_order": [
-        "template--21531419181361__ff47098f-7e17-4122-85c0-d8aa64cb57b8-newsletter-1"
+        "template--21545344598321__5b08c863-48c5-477e-9140-c13f19a2d494-newsletter-1"
       ],
       "settings": {
-        "height": "three-fifty-height-hero",
-        "mobile_height": "image-height--mobile",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full",
         "bg_color": "",
         "color": "",
@@ -571,15 +476,13 @@
   },
   "order": [
     "slideshow",
-    "562e6665-dbfe-495a-96a3-72eb2e42b583",
-    "2528ec9d-aaf7-47b2-a34f-c7a4445ee701",
-    "64173407-12b8-4e27-8396-7d305a454494",
-    "8131f56d-6166-423b-9f40-4da0dff91531",
-    "7503bc66-eb30-46bb-afc6-ee99df8ae62c",
-    "f1e72bf8-bd4b-4749-b3ec-42d72d89bd64",
+    "a83e7c23-04fd-4964-ac00-a10e4964589f",
+    "featured-collection",
+    "4a7fd95b-74e3-4fcf-b1c9-3602104752e6",
+    "tabs",
     "hero",
-    "45d1470f-d07b-43c0-9243-225170675856",
+    "2d430466-df19-4bf3-8450-2be6a0ae84e5",
     "lookbook",
-    "ff47098f-7e17-4122-85c0-d8aa64cb57b8"
+    "5b08c863-48c5-477e-9140-c13f19a2d494"
   ]
 }

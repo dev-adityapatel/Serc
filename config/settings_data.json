@@ -29,18 +29,13 @@
     "btn_secondary_bg_color": "#ab8c52",
     "btn_secondary_text_color": "#ffffff",
     "btn_secondary_border_color": "#ab8c52",
-    "grid_style": "classic",
-    "dots_style": "hidden",
-    "show_gray_bg": false,
     "product_grid_outline": false,
     "show_scroll_top_button": true,
-    "overlay_text": false,
     "product_grid_aspect_ratio": 1,
     "sale_bg_color": "#f9dee5",
     "sale_text_color": "#af7b88",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
-    "quickview_enable": true,
     "show_free_shipping_message": true,
     "message": "You are ||amount|| away from free shipping.",
     "free_shipping_limit": "200",
@@ -61,10 +56,7 @@
     "submenu_link_hover_color": "#AB8C52",
     "footer_link_hover": "#212121",
     "enable_free_shipping_message": true,
-    "sale_background_color": "#be563f",
-    "content_for_index": [
-
-    ]
+    "sale_background_color": "#be563f"
   },
   "presets": {
     "Clean": {
