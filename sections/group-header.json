@@ -41,14 +41,14 @@
         "toolbar"
       ],
       "settings": {
-        "header_sticky": false,
+        "header_sticky": true,
         "header_style": "logo_center_menu_left",
-        "show_separator_line": false,
+        "show_separator_line": true,
         "separator_opacity": 50,
         "show_icons": true,
         "icon_as_circle": false,
         "cart_icon_family": "bag",
-        "logo": "{{ shop.brand.logo }}",
+        "logo": "shopify:\/\/shop_images\/logo-transparent-crop_1.png",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
         "main_menu_linklist": "",
