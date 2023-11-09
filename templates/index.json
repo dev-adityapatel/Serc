@@ -309,6 +309,68 @@
         "padding_bottom": 32
       }
     },
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Broadcast theme",
+            "heading_size": 9
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "description": "Modern commerce built for speed",
+            "text_size": 5,
+            "text_style": "font-body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "height": "screen-height-one-third",
+        "width": "wrapper--full",
+        "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
+        "link": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "overlay_opacity": 50,
+        "overlay_color": "#000000",
+        "show_overlay_text": false,
+        "bg_color": "",
+        "color": "#ffffff"
+      }
+    },
+    "2d430466-df19-4bf3-8450-2be6a0ae84e5": {
+      "type": "section-collection",
+      "settings": {
+        "heading": "The Barcelets Collection",
+        "description": "<p>Recycled gold, AAA-grade gemstones, and ethically sourced diamonds<\/p>",
+        "layout": "center",
+        "link_text": "View All",
+        "link_url": "shopify:\/\/collections\/necklace",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "featured_collection": "bracelets",
+        "style": "grid",
+        "grid": 4,
+        "rows": 1,
+        "width": "wrapper",
+        "layout_mobile": "carousel",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "lookbook": {
       "type": "section-look",
       "blocks": {
@@ -350,44 +412,6 @@
         "dot_background": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "hero": {
-      "type": "section-hero",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Broadcast theme",
-            "heading_size": 9
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "description": "Modern commerce built for speed",
-            "text_size": 5,
-            "text_style": "font-body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "height": "screen-height-one-third",
-        "width": "wrapper--full",
-        "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
-        "link": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "overlay_opacity": 50,
-        "overlay_color": "#000000",
-        "show_overlay_text": false,
-        "bg_color": "",
-        "color": "#ffffff"
       }
     },
     "logos": {
@@ -505,8 +529,9 @@
     "featured-collection",
     "4a7fd95b-74e3-4fcf-b1c9-3602104752e6",
     "tabs",
-    "lookbook",
     "hero",
+    "2d430466-df19-4bf3-8450-2be6a0ae84e5",
+    "lookbook",
     "logos",
     "icons"
   ]
