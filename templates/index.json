@@ -32,24 +32,25 @@
             "second_button_show_arrow": false
           }
         },
-        "slideshow-1": {
+        "096fe2c8-e40b-4e09-a2e7-b64076180b3d": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow.png",
             "overlay_opacity": 0,
             "overlay_color": "#000",
             "show_overlay_text": false,
-            "title": "Broadcast theme",
-            "heading_size": 11,
-            "description": "It's like your last theme, except it's faster and better",
-            "text_size": 5,
-            "flex_align_desktop": "align--middle-center-desktop",
+            "title": "Cherished Treasures: Exploring the World of Necklaces",
+            "heading_size": 8,
+            "description": "The Kosmis ring is a remarkable piece of jewelry that traces its roots back to the 8th to 10th century in Java.",
+            "text_size": 3,
+            "flex_align_desktop": "align--middle-left-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "bg_color": "",
-            "color": "#ffffff",
-            "first_button_text": "View products",
-            "first_button_link": "shopify:\/\/collections\/all",
-            "first_button_type": "btn--white",
-            "first_button_size": "btn--large",
+            "color": "#212121",
+            "first_button_text": "Shop Now",
+            "first_button_link": "",
+            "first_button_type": "btn--secondary",
+            "first_button_size": "",
             "first_button_style": "btn--solid",
             "first_button_show_arrow": false,
             "second_button_text": "",
@@ -63,7 +64,7 @@
       },
       "block_order": [
         "slideshow-0",
-        "slideshow-1"
+        "096fe2c8-e40b-4e09-a2e7-b64076180b3d"
       ],
       "settings": {
         "height": "screen-height-two-thirds",
