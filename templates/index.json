@@ -86,17 +86,41 @@
             "title": ""
           }
         },
+        "baecf738-2016-4b96-be10-94a2ecedabda": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracelets",
+            "title": ""
+          }
+        },
+        "29616b53-b503-457b-bfcf-bb0cf5c227f9": {
+          "type": "collection",
+          "settings": {
+            "collection": "rings",
+            "title": ""
+          }
+        },
         "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "diamonds",
+            "collection": "necklace",
+            "title": ""
+          }
+        },
+        "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a": {
+          "type": "collection",
+          "settings": {
+            "collection": "earrings",
             "title": ""
           }
         }
       },
       "block_order": [
         "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-1",
-        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2"
+        "baecf738-2016-4b96-be10-94a2ecedabda",
+        "29616b53-b503-457b-bfcf-bb0cf5c227f9",
+        "template--21545344598321__a83e7c23-04fd-4964-ac00-a10e4964589f-collection-2",
+        "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a"
       ],
       "settings": {
         "height": "screen-height-three-quarters",
