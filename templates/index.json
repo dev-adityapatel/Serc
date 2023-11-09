@@ -17,7 +17,7 @@
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
             "bg_color": "",
-            "color": "#000000",
+            "color": "#212121",
             "first_button_text": "View products",
             "first_button_link": "shopify:\/\/collections\/all",
             "first_button_type": "btn--white",
