@@ -433,112 +433,44 @@
         "padding_bottom": 0
       }
     },
-    "logos": {
-      "type": "section-press-logos",
+    "5b08c863-48c5-477e-9140-c13f19a2d494": {
+      "type": "section-newsletter",
       "blocks": {
-        "logos-0": {
-          "type": "logo-item",
+        "template--21545344598321__5b08c863-48c5-477e-9140-c13f19a2d494-newsletter-1": {
+          "type": "newsletter",
           "settings": {
-            "logo_width": 100,
-            "link": "",
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "heading_size": 6
-          }
-        },
-        "logos-1": {
-          "type": "logo-item",
-          "settings": {
-            "logo_width": 100,
-            "link": "",
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "heading_size": 6
-          }
-        },
-        "logos-2": {
-          "type": "logo-item",
-          "settings": {
-            "logo_width": 100,
-            "link": "",
-            "description": "<p>Include a brief quote from a brand that loves your products<\/p>",
-            "heading_size": 6
+            "subheading": "Newsletter",
+            "subheading_size": 3,
+            "heading": "Sign up",
+            "heading_size": 7,
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+            "text_size": 3,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "bg_color": "",
+            "color": "",
+            "show_name": false,
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": false,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false
           }
         }
       },
       "block_order": [
-        "logos-0",
-        "logos-1",
-        "logos-2"
+        "template--21545344598321__5b08c863-48c5-477e-9140-c13f19a2d494-newsletter-1"
       ],
       "settings": {
-        "title": "Press",
-        "enable_heading_slider": true,
-        "text_style": "font-body",
-        "logo_opacity": 60,
-        "bg_color": "#ffffff",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "bg_color": "",
         "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "icons": {
-      "type": "section-text-row",
-      "blocks": {
-        "icon-0": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-shield",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Secure transactions",
-            "heading_size": 4,
-            "text": "<p>Transactions are handled with bank-grade security.<p>",
-            "text_size": 3
-          }
-        },
-        "icon-1": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-recycle",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Simple checkout",
-            "heading_size": 4,
-            "text": "<p>Our secure checkout is quick and easy to use.<p>",
-            "text_size": 3
-          }
-        },
-        "icon-2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Get in touch",
-            "heading_size": 4,
-            "text": "<p>Have questions? Get in touch with us at any time.<p>",
-            "text_size": 3
-          }
-        }
-      },
-      "block_order": [
-        "icon-0",
-        "icon-1",
-        "icon-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": 4,
-        "layout": "grid",
-        "grid": 3,
-        "align_text": "text-left",
-        "icon_alignment": "icon--top",
-        "align_columns": "flex-align-top",
-        "width": "wrapper--full-padded",
-        "bg_color": "#fafafa",
-        "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "layout_mobile": "carousel"
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -551,7 +483,6 @@
     "hero",
     "2d430466-df19-4bf3-8450-2be6a0ae84e5",
     "lookbook",
-    "logos",
-    "icons"
+    "5b08c863-48c5-477e-9140-c13f19a2d494"
   ]
 }
