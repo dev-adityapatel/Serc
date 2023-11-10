@@ -1,4 +1,4 @@
-.image-collection_hover {
+.main-collection .image-collection_hover {
   grid-template-columns: 1fr 1fr;
 }
 .image-collection-hover__actions {
