@@ -1,3 +1,15 @@
-.header__wrapper {
-  display: none !important;
+/*============== Heading Css Start ==============*/
+.grid__heading-text .heading-size-5,
+.hero__content .heading-size-8 {
+  font-size: 35px;
+  font-weight: 700;
 }
+/*============== Heading Css End ==============*/
+/*============== Collection Css Start ==============*/
+.main-collection .image-collection_hover {
+  grid-template-columns: 1fr 1fr;
+}
+.image-collection-hover__actions {
+  flex-direction: column;
+}
+/*============== Collection Css End ==============*/
