@@ -11,8 +11,12 @@
     width: 100%;
     height: auto;
   }
+  #gallery--{{ section.id }}{
+  padding-top:{{-section.settings.padding_top-}}px !important;
+  padding-bottom:{{-section.settings.padding_bottom-}}px !important;
+}
 {% endstyle %}
-<section class="section-padding {{ section.settings.width }}">
+<section class="{{ section.settings.width }}" id="gallery--{{ section.id }}">
   <h2>{{ section.settings.heading }}</h2>
     <div class="gallery-image">
         {%- for block in section.blocks -%}
@@ -48,6 +52,26 @@
         {"value": "wrapper--full-padded", "label": "Full width padded"},
         {"value": "wrapper", "label": "Normal"}
       ]
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "blocks": [
