@@ -82,13 +82,13 @@
   {%- endcapture -%}
 {%- endfor -%}
 
-<section class="main-collection" id="CollectionsListHover--{{ section.id }}"
+<section class="main-collection" id="CollectionsListHover--{{ section.id }} {{ section.settings.width }}"
   style="{{ style }}"
   class="section-padding"
   data-overlay-header
   data-section-id="{{ section.id }}"
   data-section-type="collections-hover">
-  <div class="image-collection_hover collections-hover{% if block_count == 0 %} collections-hover--empty{% endif %} frame {{ desktop_height }} {{ section.settings.width }}">
+  <div class="image-collection_hover collections-hover{% if block_count == 0 %} collections-hover--empty{% endif %} frame {{ desktop_height }}">
     {%- if block_count > 0 -%}
       <div class="collections-hover__inner frame__item">
         <div class="collections-hover__content wrapper--full-padded">
