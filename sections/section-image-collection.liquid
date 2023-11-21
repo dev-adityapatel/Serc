@@ -88,7 +88,7 @@
   data-overlay-header
   data-section-id="{{ section.id }}"
   data-section-type="collections-hover">
-  <div class="image-collection_hover collections-hover{% if block_count == 0 %} collections-hover--empty{% endif %} frame {{ desktop_height }}">
+  <div class="image-collection_hover collections-hover{% if block_count == 0 %} collections-hover--empty{% endif %} frame {{ desktop_height }} {{ section.settings.width }}">
     {%- if block_count > 0 -%}
       <div class="collections-hover__inner frame__item">
         <div class="collections-hover__content wrapper--full-padded">
@@ -156,6 +156,17 @@
         { "value": "four-fifty-height-hero--mobile", "label": "450px" }
       ]
     },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full",
+      "options": [
+        {"value": "wrapper--full", "label": "Full width"},
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Normal"}
+      ]
+    }
     {
       "type": "header",
       "content": "Overlay"

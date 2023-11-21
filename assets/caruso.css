@@ -15,8 +15,11 @@
 /*============== Collection Css End ==============*/
 /* Min width Media Query Css Start */
 @media screen and (min-width: 750px) {
-  .collections-hover__inner,
-  .collections-hover__images {
+  .main-collection .collections-hover__inner,
+  .main-collection .collections-hover__images {
     grid-column-start: 2;
+  }
+  .main-collection .collections-hover__actions {
+    align-items: flex-start;
   }
 }
