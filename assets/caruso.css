@@ -13,3 +13,10 @@
   flex-direction: column;
 }
 /*============== Collection Css End ==============*/
+/* Min width Media Query Css Start */
+@media screen and (min-width: 750px) {
+  .collections-hover__inner,
+  .collections-hover__images {
+    grid-column-start: 2;
+  }
+}
