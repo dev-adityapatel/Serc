@@ -1,5 +1,10 @@
 <!-- /sections/section-collections-list.liquid -->
-
+{% style  %} 
+#CollectionsListHover--{{ section.id }}{
+  padding-top:{{-section.settings.padding_top-}}px !important;
+  padding-bottom:{{-section.settings.padding_bottom-}}px !important;
+}
+{% endstyle %}
 {%- liquid
   assign animation_order = 0
   assign animation_anchor = '#CollectionsListHover--' | append: section.id
