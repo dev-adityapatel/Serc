@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slideshow.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "Cherished Treasures: Exploring the World of Necklaces",
             "heading_size": 8,
@@ -37,7 +37,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slideshow.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "Cherished Treasures: Exploring the World of Necklaces",
             "heading_size": 8,
@@ -126,7 +126,7 @@
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
         "overlay_opacity": 20,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_text": false,
         "heading_size": 7,
         "bg_color": "",
@@ -169,7 +169,7 @@
             "show_video_popup": false,
             "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 7,
@@ -183,7 +183,7 @@
             "button_style": "btn--solid",
             "show_arrow": false,
             "bg_color": "",
-            "color": "#FFFFFF"
+            "color": "#ffffff"
           }
         },
         "template--21545344598321__4a7fd95b-74e3-4fcf-b1c9-3602104752e6-text-1": {
@@ -236,9 +236,9 @@
             "align_with_product_images": true,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -256,9 +256,9 @@
             "align_with_product_images": true,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -276,9 +276,9 @@
             "align_with_product_images": true,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
-            "overlay_color": "#000",
+            "overlay_color": "#000000",
             "description": "",
-            "color": "#fff",
+            "color": "#ffffff",
             "link_text": "View products",
             "link": "",
             "button_type": "btn--white",
@@ -472,6 +472,13 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "440a3aeb-b56e-4c91-b723-b7c1427c7ea2": {
+      "type": "section-gallery",
+      "settings": {
+        "heading": "Gallery",
+        "width": "wrapper--full"
+      }
     }
   },
   "order": [
@@ -483,6 +490,7 @@
     "hero",
     "2d430466-df19-4bf3-8450-2be6a0ae84e5",
     "lookbook",
-    "5b08c863-48c5-477e-9140-c13f19a2d494"
+    "5b08c863-48c5-477e-9140-c13f19a2d494",
+    "440a3aeb-b56e-4c91-b723-b7c1427c7ea2"
   ]
 }
