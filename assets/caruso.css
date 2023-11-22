@@ -1,3 +1,8 @@
+/*============== Hero Slider Css Start ==============*/
+.slideshow .hero__content--transparent {
+  max-width: 450px;
+}
+/*============== Hero Slider Css End ==============*/
 /*============== Heading Css Start ==============*/
 .grid__heading-text .heading-size-5,
 .hero__content .heading-size-8 {
