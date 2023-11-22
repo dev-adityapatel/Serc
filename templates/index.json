@@ -496,6 +496,58 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "acb52590-fb5d-42c4-892d-37c33b1f1b91": {
+      "type": "section-accordion",
+      "blocks": {
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-4": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-1",
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-2",
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-3",
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-4"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -508,6 +560,7 @@
     "2d430466-df19-4bf3-8450-2be6a0ae84e5",
     "lookbook",
     "5b08c863-48c5-477e-9140-c13f19a2d494",
-    "440a3aeb-b56e-4c91-b723-b7c1427c7ea2"
+    "440a3aeb-b56e-4c91-b723-b7c1427c7ea2",
+    "acb52590-fb5d-42c4-892d-37c33b1f1b91"
   ]
 }
