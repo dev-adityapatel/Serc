@@ -123,7 +123,7 @@
         "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a"
       ],
       "settings": {
-        "height": "four-fifty-height-hero",
+        "height": "image-height",
         "mobile_height": "image-height--mobile",
         "width": "wrapper",
         "overlay_opacity": 20,
