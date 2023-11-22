@@ -125,7 +125,7 @@
       "settings": {
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "overlay_opacity": 20,
         "overlay_color": "#000000",
         "show_overlay_text": false,
