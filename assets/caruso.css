@@ -1,5 +1,5 @@
 /*============== Hero Slider Css Start ==============*/
-.slideshow .hero__content--transparent {
+.slideshow .slideshow__slider .hero__content--transparent {
   max-width: 450px;
 }
 /*============== Hero Slider Css End ==============*/
@@ -15,15 +15,14 @@
   font-size: 20px;
   color: #212121;
   opacity: 1;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .collection-hover__button.is-selected {
   font-size: 40px;
-}
-.main-collection .image-collection_hover {
-  grid-template-columns: 1fr 1fr;
-}
-.image-collection-hover__actions {
-  flex-direction: column;
+  transition: 0.3s all linear;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .collections-hover__images .collections-hover__image {
   transform: translateX(-100%);
@@ -47,6 +46,12 @@
 /*============== Tab Collection Css End ==============*/
 /*============== Min width Media Query Css Start ==============*/
 @media screen and (min-width: 750px) {
+  .main-collection .image-collection_hover {
+    grid-template-columns: 1fr 1fr;
+  }
+  .image-collection-hover__actions {
+    flex-direction: column;
+  }
   .main-collection .collections-hover__inner,
   .main-collection .collections-hover__images {
     grid-column-start: 2;
