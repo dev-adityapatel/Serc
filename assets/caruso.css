@@ -20,9 +20,9 @@
   transform: translateX(0);
   transition: 0.3s linear all;
 }
-.collections-hover__images .image-overlay {
+/* .collections-hover__images .image-overlay {
   background-color: unset;
-}
+} */
 /* .collections-hover__image {
   overflow: unset !important;
   opacity: unset !important;
