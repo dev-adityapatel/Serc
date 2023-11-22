@@ -125,6 +125,7 @@
       "settings": {
         "height": "screen-height-three-quarters",
         "mobile_height": "screen-height-three-quarters--mobile",
+        "width": "wrapper--full",
         "overlay_opacity": 20,
         "overlay_color": "#000000",
         "show_overlay_text": false,
@@ -238,6 +239,7 @@
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
+            "para": "",
             "color": "#ffffff",
             "link_text": "View products",
             "link": "",
@@ -258,6 +260,7 @@
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
+            "para": "",
             "color": "#ffffff",
             "link_text": "View products",
             "link": "",
@@ -278,6 +281,7 @@
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "description": "",
+            "para": "",
             "color": "#ffffff",
             "link_text": "View products",
             "link": "",
@@ -475,9 +479,22 @@
     },
     "440a3aeb-b56e-4c91-b723-b7c1427c7ea2": {
       "type": "section-gallery",
+      "blocks": {
+        "a0f18d19-ded6-47d5-aae5-7293467b42a6": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_77_79ad21ee-6373-4b05-bca2-80ffa538c6ed.png"
+          }
+        }
+      },
+      "block_order": [
+        "a0f18d19-ded6-47d5-aae5-7293467b42a6"
+      ],
       "settings": {
         "heading": "Gallery",
-        "width": "wrapper--full"
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
