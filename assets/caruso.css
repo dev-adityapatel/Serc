@@ -23,12 +23,12 @@
 .collections-hover__images .image-overlay {
   background-color: unset;
 }
-.collections-hover__image {
+/* .collections-hover__image {
   overflow: unset !important;
   opacity: unset !important;
   transform: unset !important;
   transition: unset !important;
-}
+} */
 /*============== Collection Css End ==============*/
 /* Min width Media Query Css Start */
 @media screen and (min-width: 750px) {
