@@ -123,16 +123,17 @@
         "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a"
       ],
       "settings": {
-        "height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
         "overlay_opacity": 20,
         "overlay_color": "#000000",
         "show_overlay_text": false,
         "heading_size": 7,
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 80,
+        "padding_bottom": 60
       }
     },
     "featured-collection": {
@@ -216,7 +217,7 @@
       "settings": {
         "height": "image-height",
         "mobile_height": "image-height--mobile",
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "borders": false,
         "gutters": false,
         "reverse_blocks": false,
@@ -233,11 +234,12 @@
             "title": "Bridal",
             "featured_collection": "bridal-designs",
             "show_image": true,
-            "align_with_product_images": true,
+            "align_with_product_images": false,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
-            "description": "",
+            "description": "<h3>Bridal<\/h3>",
+            "para": "<p>Soon-to-be staples in your rotation<\/p>",
             "color": "#ffffff",
             "link_text": "View products",
             "link": "",
@@ -253,11 +255,12 @@
             "title": "Ring",
             "featured_collection": "rings",
             "show_image": true,
-            "align_with_product_images": true,
+            "align_with_product_images": false,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
-            "description": "",
+            "description": "<h3>Ring<\/h3>",
+            "para": "<p>Soon-to-be staples in your rotation<\/p>",
             "color": "#ffffff",
             "link_text": "View products",
             "link": "",
@@ -273,11 +276,12 @@
             "title": "Necklaces",
             "featured_collection": "necklace",
             "show_image": true,
-            "align_with_product_images": true,
+            "align_with_product_images": false,
             "image": "shopify:\/\/shop_images\/Rectangle_73.png",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
-            "description": "",
+            "description": "<h3>Necklaces<\/h3>",
+            "para": "<p>Soon-to-be staples in your rotation<\/p>",
             "color": "#ffffff",
             "link_text": "View products",
             "link": "",
@@ -315,15 +319,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Broadcast theme",
-            "heading_size": 9
+            "title": "Our Mission Redefing Luxury",
+            "heading_size": 8
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "description": "Modern commerce built for speed",
-            "text_size": 5,
+            "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "text_size": 4,
             "text_style": "font-body"
           }
         }
@@ -333,8 +337,8 @@
         "text"
       ],
       "settings": {
-        "height": "screen-height-one-third",
-        "width": "wrapper--full",
+        "height": "image-height",
+        "width": "wrapper--full-padded",
         "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
@@ -417,7 +421,7 @@
         "layout": "",
         "image": "shopify:\/\/shop_images\/Rectangle_37.png",
         "title": "Shop the look",
-        "show_dots": true,
+        "show_dots": false,
         "products_per_row": "1",
         "enable_aspect_ratio": true,
         "image_aspect_ratio": 1,
@@ -475,9 +479,95 @@
     },
     "440a3aeb-b56e-4c91-b723-b7c1427c7ea2": {
       "type": "section-gallery",
+      "blocks": {
+        "a0f18d19-ded6-47d5-aae5-7293467b42a6": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_74.png"
+          }
+        },
+        "d00e51e4-c6ad-4467-a7e5-ea1f0ba0a055": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_75.png"
+          }
+        },
+        "3053520f-9d5c-490a-89cc-65b4faf359ca": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_77.png"
+          }
+        },
+        "10f73993-7398-4d73-86e8-3d02e2f5a915": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_76.png"
+          }
+        }
+      },
+      "block_order": [
+        "a0f18d19-ded6-47d5-aae5-7293467b42a6",
+        "d00e51e4-c6ad-4467-a7e5-ea1f0ba0a055",
+        "3053520f-9d5c-490a-89cc-65b4faf359ca",
+        "10f73993-7398-4d73-86e8-3d02e2f5a915"
+      ],
       "settings": {
-        "heading": "Gallery",
-        "width": "wrapper--full"
+        "heading": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "acb52590-fb5d-42c4-892d-37c33b1f1b91": {
+      "type": "section-accordion",
+      "blocks": {
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-2": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-3": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        },
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-4": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-1",
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-2",
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-3",
+        "template--21545344598321__acb52590-fb5d-42c4-892d-37c33b1f1b91-text-4"
+      ],
+      "settings": {
+        "title": "FAQ",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -491,6 +581,7 @@
     "2d430466-df19-4bf3-8450-2be6a0ae84e5",
     "lookbook",
     "5b08c863-48c5-477e-9140-c13f19a2d494",
-    "440a3aeb-b56e-4c91-b723-b7c1427c7ea2"
+    "440a3aeb-b56e-4c91-b723-b7c1427c7ea2",
+    "acb52590-fb5d-42c4-892d-37c33b1f1b91"
   ]
 }
