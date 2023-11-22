@@ -319,15 +319,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "title": "Broadcast theme",
-            "heading_size": 9
+            "title": "Our Mission Redefing Luxury",
+            "heading_size": 8
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "description": "Modern commerce built for speed",
-            "text_size": 5,
+            "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+            "text_size": 4,
             "text_style": "font-body"
           }
         }
@@ -337,8 +337,8 @@
         "text"
       ],
       "settings": {
-        "height": "screen-height-one-third",
-        "width": "wrapper--full",
+        "height": "image-height",
+        "width": "wrapper--full-padded",
         "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
         "link": "",
         "mobile_height": "screen-height-three-quarters--mobile",
@@ -421,7 +421,7 @@
         "layout": "",
         "image": "shopify:\/\/shop_images\/Rectangle_37.png",
         "title": "Shop the look",
-        "show_dots": true,
+        "show_dots": false,
         "products_per_row": "1",
         "enable_aspect_ratio": true,
         "image_aspect_ratio": 1,
@@ -483,15 +483,36 @@
         "a0f18d19-ded6-47d5-aae5-7293467b42a6": {
           "type": "gallery",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_77_79ad21ee-6373-4b05-bca2-80ffa538c6ed.png"
+            "image": "shopify:\/\/shop_images\/Rectangle_74.png"
+          }
+        },
+        "d00e51e4-c6ad-4467-a7e5-ea1f0ba0a055": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_75.png"
+          }
+        },
+        "3053520f-9d5c-490a-89cc-65b4faf359ca": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_77.png"
+          }
+        },
+        "10f73993-7398-4d73-86e8-3d02e2f5a915": {
+          "type": "gallery",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_76.png"
           }
         }
       },
       "block_order": [
-        "a0f18d19-ded6-47d5-aae5-7293467b42a6"
+        "a0f18d19-ded6-47d5-aae5-7293467b42a6",
+        "d00e51e4-c6ad-4467-a7e5-ea1f0ba0a055",
+        "3053520f-9d5c-490a-89cc-65b4faf359ca",
+        "10f73993-7398-4d73-86e8-3d02e2f5a915"
       ],
       "settings": {
-        "heading": "Gallery",
+        "heading": "",
         "width": "wrapper--full",
         "padding_top": 0,
         "padding_bottom": 0
