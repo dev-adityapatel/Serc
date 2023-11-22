@@ -6,6 +6,14 @@
 }
 /*============== Heading Css End ==============*/
 /*============== Collection Css Start ==============*/
+.collection-hover__button.heading-size-7 {
+  font-size: 20px;
+  color: #212121;
+  opacity: 1;
+}
+.collection-hover__button.is-selected {
+  font-size: 40px;
+}
 .main-collection .image-collection_hover {
   grid-template-columns: 1fr 1fr;
 }
@@ -20,10 +28,18 @@
   transform: translateX(0);
   transition: 0.3s linear all;
 }
-.collections-hover__images .image-overlay {
-  background-color: unset;
-}
 /*============== Collection Css End ==============*/
+/*============== Tab Collection Css Start ==============*/
+.index-tab-collections .product-item--featured .grid__heading-text {
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.index-tab-collections .product-item--featured .grid__heading-actions {
+  text-align: center;
+}
+/*============== Tab Collection Css End ==============*/
 /*============== Min width Media Query Css Start ==============*/
 @media screen and (min-width: 750px) {
   .main-collection .collections-hover__inner,
