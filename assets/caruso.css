@@ -1,3 +1,8 @@
+/*============== Hero Slider Css Start ==============*/
+.slideshow .slideshow__slider .hero__content--transparent {
+  max-width: 450px;
+}
+/*============== Hero Slider Css End ==============*/
 /*============== Heading Css Start ==============*/
 .grid__heading-text .heading-size-5,
 .hero__content .heading-size-8 {
@@ -6,10 +11,53 @@
 }
 /*============== Heading Css End ==============*/
 /*============== Collection Css Start ==============*/
-.main-collection .image-collection_hover {
-  grid-template-columns: 1fr 1fr;
+.collection-hover__button.heading-size-7 {
+  font-size: 20px;
+  color: #212121;
+  opacity: 1;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.image-collection-hover__actions {
-  flex-direction: column;
+.collection-hover__button.is-selected {
+  font-size: 40px;
+  transition: 0.3s all linear;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.collections-hover__images .collections-hover__image {
+  transform: translateX(-100%);
+  transition: 0.3s linear all;
+}
+.collections-hover__images .collections-hover__image.is-visible {
+  transform: translateX(0);
+  transition: 0.3s linear all;
 }
 /*============== Collection Css End ==============*/
+/*============== Tab Collection Css Start ==============*/
+.index-tab-collections .product-item--featured .grid__heading-text {
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.index-tab-collections .product-item--featured .grid__heading-actions {
+  text-align: center;
+}
+/*============== Tab Collection Css End ==============*/
+/*============== Min width Media Query Css Start ==============*/
+@media screen and (min-width: 750px) {
+  .main-collection .image-collection_hover {
+    grid-template-columns: 1fr 1fr;
+  }
+  .image-collection-hover__actions {
+    flex-direction: column;
+  }
+  .main-collection .collections-hover__inner,
+  .main-collection .collections-hover__images {
+    grid-column-start: 2;
+  }
+  .main-collection .collections-hover__actions {
+    align-items: flex-start;
+  }
+}
+/*============== Min width Media Query Css End ==============*/

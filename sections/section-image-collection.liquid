@@ -1,5 +1,10 @@
 <!-- /sections/section-collections-list.liquid -->
-
+{% style  %} 
+#CollectionsListHover--{{ section.id }}{
+  padding-top:{{-section.settings.padding_top-}}px !important;
+  padding-bottom:{{-section.settings.padding_bottom-}}px !important;
+}
+{% endstyle %}
 {%- liquid
   assign animation_order = 0
   assign animation_anchor = '#CollectionsListHover--' | append: section.id
@@ -82,7 +87,7 @@
   {%- endcapture -%}
 {%- endfor -%}
 
-<section class="main-collection" id="CollectionsListHover--{{ section.id }}"
+<section class="main-collection {{ section.settings.width }}" id="CollectionsListHover--{{ section.id }}"
   style="{{ style }}"
   class="section-padding"
   data-overlay-header
@@ -154,6 +159,17 @@
         { "value": "sixty-fifty-height-hero--mobile", "label": "650px" },
         { "value": "five-fifty-height-hero--mobile", "label": "550px" },
         { "value": "four-fifty-height-hero--mobile", "label": "450px" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "width",
+      "label": "Width",
+      "default": "wrapper--full",
+      "options": [
+        {"value": "wrapper--full", "label": "Full width"},
+        {"value": "wrapper--full-padded", "label": "Full width padded"},
+        {"value": "wrapper", "label": "Normal"}
       ]
     },
     {

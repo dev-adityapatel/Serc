@@ -209,6 +209,12 @@
                             data-aos-order="{{ featured_animation_order }}">
                             {{ block.settings.description }}
                           </div>
+                          <div class="grid__para"
+                            data-aos="hero"
+                            data-aos-anchor="{{ animation_anchor }}"
+                            data-aos-order="{{ featured_animation_order }}">
+                            {{ block.settings.para }}
+                          </div>
                         </div>
                       {%- endif -%}
 
@@ -590,6 +596,11 @@
         {
           "type": "richtext",
           "id": "description",
+          "label": "Text"
+        },
+        {
+          "type": "richtext",
+          "id": "para",
           "label": "Text"
         },
         {
