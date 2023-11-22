@@ -12,25 +12,19 @@
 .image-collection-hover__actions {
   flex-direction: column;
 }
-.collections-hover__image.image-height--mobile {
+.collections-hover__images .collections-hover__image {
   transform: translateX(-100%);
   transition: 0.3s linear all;
 }
-.collections-hover__image.image-height--mobile.is-visible {
+.collections-hover__images .collections-hover__image.is-visible {
   transform: translateX(0);
   transition: 0.3s linear all;
 }
-/* .collections-hover__images .image-overlay {
+.collections-hover__images .image-overlay {
   background-color: unset;
-} */
-/* .collections-hover__image {
-  overflow: unset !important;
-  opacity: unset !important;
-  transform: unset !important;
-  transition: unset !important;
-} */
+}
 /*============== Collection Css End ==============*/
-/* Min width Media Query Css Start */
+/*============== Min width Media Query Css Start ==============*/
 @media screen and (min-width: 750px) {
   .main-collection .collections-hover__inner,
   .main-collection .collections-hover__images {
@@ -40,3 +34,4 @@
     align-items: flex-start;
   }
 }
+/*============== Min width Media Query Css End ==============*/
