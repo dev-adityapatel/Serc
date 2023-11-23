@@ -60,7 +60,6 @@
     align-items: flex-start;
   }
   .brick__block--text .hero__content--compact {
-    text-align: left;
     width: 50%;
   }
   .newsletter__wrapper {
