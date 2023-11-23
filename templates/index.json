@@ -554,7 +554,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 30,
-        "padding_bottom": 50,
+        "padding_bottom": 20,
         "layout_mobile": "carousel"
       }
     },
