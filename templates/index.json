@@ -477,6 +477,87 @@
         "padding_bottom": 0
       }
     },
+    "9f61bf7f-8f4d-4620-b9c1-ab30ba6581f5": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "template--21545344598321__9f61bf7f-8f4d-4620-b9c1-ab30ba6581f5-icon-1": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-box",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#f2b230",
+            "title": "Free shipping for orders on $500\/-",
+            "heading_size": 2,
+            "text": "",
+            "text_size": 3
+          }
+        },
+        "c50cb5e3-9dc6-43c5-a72b-d44761d824f5": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-star",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#f2b230",
+            "title": "Quality Assurances",
+            "heading_size": 2,
+            "text": "",
+            "text_size": 3
+          }
+        },
+        "9051da24-c99d-48fc-a8b0-c5c51eb8afff": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-recycle",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#f2b230",
+            "title": "14 days return policy",
+            "heading_size": 2,
+            "text": "",
+            "text_size": 3
+          }
+        },
+        "1495d2ed-1a57-46c8-a580-626b0948e045": {
+          "type": "icon",
+          "settings": {
+            "column_width": 25,
+            "icon_name": "icon-box",
+            "icon_size": 25,
+            "icon_alignment": "icon--top",
+            "icon_color": "#f2b230",
+            "image": "shopify:\/\/shop_images\/credit-card.png",
+            "title": "Secure Payment",
+            "heading_size": 2,
+            "text": "",
+            "text_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "template--21545344598321__9f61bf7f-8f4d-4620-b9c1-ab30ba6581f5-icon-1",
+        "c50cb5e3-9dc6-43c5-a72b-d44761d824f5",
+        "9051da24-c99d-48fc-a8b0-c5c51eb8afff",
+        "1495d2ed-1a57-46c8-a580-626b0948e045"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 5,
+        "description": "",
+        "align_text": "text-center",
+        "align_columns": "flex-align-top",
+        "width": "wrapper--full-padded",
+        "bg_color": "",
+        "color": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "layout_mobile": "carousel"
+      }
+    },
     "440a3aeb-b56e-4c91-b723-b7c1427c7ea2": {
       "type": "section-gallery",
       "blocks": {
@@ -529,6 +610,7 @@
     "2d430466-df19-4bf3-8450-2be6a0ae84e5",
     "lookbook",
     "5b08c863-48c5-477e-9140-c13f19a2d494",
+    "9f61bf7f-8f4d-4620-b9c1-ab30ba6581f5",
     "440a3aeb-b56e-4c91-b723-b7c1427c7ea2"
   ]
 }
