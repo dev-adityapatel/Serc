@@ -454,8 +454,8 @@
             "bg_color": "",
             "color": "",
             "show_name": false,
-            "button_text": "Join",
-            "show_arrow": false,
+            "button_text": "",
+            "show_arrow": true,
             "terms": false,
             "button_type": "btn--primary",
             "button_size": "",
@@ -468,9 +468,9 @@
         "template--21545344598321__5b08c863-48c5-477e-9140-c13f19a2d494-newsletter-1"
       ],
       "settings": {
-        "height": "screen-height-one-third",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "width": "wrapper",
         "bg_color": "",
         "color": "",
         "padding_top": 0,
