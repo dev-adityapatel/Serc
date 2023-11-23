@@ -26,7 +26,7 @@
         "footer-1": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu",
+            "linklist": "other-links",
             "title": "",
             "column_width": 25
           }
