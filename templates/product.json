@@ -6,58 +6,104 @@
         "title": {
           "type": "title",
           "settings": {
-            "subheading_option": "breadcrumb"
+            "subheading_option": "breadcrumb",
+            "text_size": 6,
+            "show_rating": true,
+            "enable_star_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 8
           }
         },
         "price": {
           "type": "price",
           "settings": {
+            "padding_bottom": 16
           }
         },
         "variants": {
           "type": "variants",
           "settings": {
+            "info_page": "",
+            "size_chart_style": "text",
+            "subscriptions_enable_selectors": false,
+            "padding_bottom": 16
           }
         },
         "buttons": {
           "type": "buttons",
           "settings": {
+            "show_quantity": true,
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "padding_bottom": 32
           }
         },
         "pickup": {
           "type": "pickup",
           "disabled": true,
           "settings": {
+            "padding_bottom": 32
           }
         },
         "tabs": {
           "type": "tab_richtext",
           "settings": {
+            "show_read_more": true,
+            "style": "tabs",
+            "title_1": "Tab",
+            "raw_content_1": "<p>This content type will accept <strong>rich text<\/strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.<\/p>",
+            "title_2": "Info",
+            "raw_content_2": "<p>You can use product metafields to assign content to this tab that is unique to an individual product.  Use tabs to highlight unique features, sizing information, or other sales information.<\/p>",
+            "title_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 0
           }
         },
         "divider_1": {
           "type": "divider",
           "settings": {
+            "show_line": true,
+            "padding_top": 20,
             "padding_bottom": 16
           }
         },
         "upsell": {
           "type": "upsell",
           "settings": {
+            "upsell_product": "bracelet-04",
+            "upsell_product_list": [
+
+            ],
+            "bg_color": "",
+            "padding_bottom": 16
           }
         },
         "icon_1": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-email",
-            "title": "Free 30 Days Returns"
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Free 30 Days Returns",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
           }
         },
         "icon_2": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-truck",
-            "title": "Free shipping on orders over $100"
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Free shipping on orders over $100",
+            "text_size": 3,
+            "width": "full",
+            "padding_bottom": 16
           }
         }
       },
@@ -74,6 +120,15 @@
         "icon_2"
       ],
       "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "stacked",
+        "image_size": "normal",
+        "show_cart_bar": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_style": "thumbs",
+        "padding_top": 90,
+        "padding_bottom": 30
       }
     },
     "faq": {
@@ -82,21 +137,29 @@
         "faq-1": {
           "type": "text",
           "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         },
         "faq-2": {
           "type": "text",
           "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         },
         "faq-3": {
           "type": "text",
           "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         },
         "faq-4": {
           "type": "text",
           "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         }
       },
@@ -108,6 +171,14 @@
       ],
       "settings": {
         "title": "FAQ",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
         "padding_top": 30,
         "padding_bottom": 0
       }
@@ -119,21 +190,30 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-fast-shipment",
-            "title": "Fast shipping"
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Fast shipping",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         },
         "shipping-1": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-box",
-            "title": "Order tracking"
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Order tracking",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         },
         "shipping-2": {
           "type": "icon",
           "settings": {
             "icon_name": "icon-chat",
-            "title": "Get in touch"
+            "icon_size": 20,
+            "icon_color": "#545454",
+            "title": "Get in touch",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>"
           }
         }
       },
@@ -144,6 +224,14 @@
       ],
       "settings": {
         "title": "Shipping",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -154,16 +242,25 @@
         "about-0": {
           "type": "image",
           "settings": {
+            "title": "Image heading",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "aspect_ratio": 0.6
           }
         },
         "about-1": {
           "type": "image",
           "settings": {
+            "title": "Image heading",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "aspect_ratio": 0.6
           }
         },
         "about-2": {
           "type": "image",
           "settings": {
+            "title": "Image heading",
+            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.<\/p>",
+            "aspect_ratio": 0.6
           }
         }
       },
@@ -174,6 +271,14 @@
       ],
       "settings": {
         "title": "About us",
+        "show_icon": false,
+        "icon_name": "icon-award",
+        "icon_size": 20,
+        "icon_color": "#545454",
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "width": "wrapper",
         "padding_top": 0,
         "padding_bottom": 30
       }
@@ -181,66 +286,11 @@
     "reviews": {
       "type": "reviews",
       "settings": {
-      }
-    },
-    "custom": {
-      "type": "section-custom-content",
-      "blocks": {
-        "custom-0": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "description": "",
-            "link_text": ""
-          }
-        },
-        "custom-1": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Product feature",
-            "button_text": "",
-            "align_text": "text-left",
-            "bg_color": "#f7f7f7"
-          }
-        }
-      },
-      "block_order": [
-        "custom-0",
-        "custom-1"
-      ],
-      "settings": {
-        "height": "screen-height-one-half"
-      }
-    },
-    "imgtxt": {
-      "type": "section-custom-content",
-      "blocks": {
-        "imgtxt-0": {
-          "type": "text",
-          "settings": {
-            "subheading": "Introducing",
-            "title": "Another feature",
-            "button_text": "",
-            "align_text": "text-left",
-            "bg_color": "#f7f7f7"
-          }
-        },
-        "imgtxt-1": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "description": "",
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "imgtxt-0",
-        "imgtxt-1"
-      ],
-      "settings": {
-        "height": "screen-height-one-half"
+        "enable_product_reviews": false,
+        "enable_accordion": true,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 30
       }
     },
     "related": {
@@ -249,11 +299,15 @@
         "related": {
           "type": "related",
           "settings": {
+            "product_recommendations_heading": "Related products",
+            "limit": 4
           }
         },
         "recent": {
           "type": "recent",
           "settings": {
+            "product_recently_heading": "Recently viewed",
+            "product_recently_limit": 4
           }
         }
       },
@@ -262,7 +316,12 @@
         "recent"
       ],
       "settings": {
-        "enable_tabs": true
+        "enable_tabs": true,
+        "bg_color": "",
+        "color": "",
+        "border_color": "",
+        "padding_top": 30,
+        "padding_bottom": 0
       }
     }
   },
@@ -272,8 +331,6 @@
     "shipping",
     "about",
     "reviews",
-    "custom",
-    "imgtxt",
     "related"
   ]
 }
