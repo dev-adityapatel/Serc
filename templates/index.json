@@ -443,9 +443,9 @@
         "template--21545344598321__5b08c863-48c5-477e-9140-c13f19a2d494-newsletter-1": {
           "type": "newsletter",
           "settings": {
-            "subheading": "Newsletter",
+            "subheading": "",
             "subheading_size": 3,
-            "heading": "Sign up",
+            "heading": "Subscribe To Our Newsletter",
             "heading_size": 7,
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
             "text_size": 3,
