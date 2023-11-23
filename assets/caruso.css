@@ -46,6 +46,9 @@
   transform: translateX(0);
   transition: 0.3s linear all;
 }
+.collections-hover__image .image-wrapper {
+  padding-top: calc(1 / var(--aspect-ratio) * 100%);
+}
 /*============== Collection Css End ==============*/
 /*============== Tab Collection Css Start ==============*/
 .index-tab-collections .product-item--featured .grid__heading-text {
