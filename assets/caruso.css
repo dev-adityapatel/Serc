@@ -1,8 +1,3 @@
-/*============== Hero Slider Css Start ==============*/
-.slideshow .slideshow__slider .hero__content--transparent {
-  max-width: 450px;
-}
-/*============== Hero Slider Css End ==============*/
 /*============== Heading Css Start ==============*/
 .grid__heading-text .heading-size-5,
 .hero__content .heading-size-8 {
@@ -10,6 +5,16 @@
   font-weight: 700;
 }
 /*============== Heading Css End ==============*/
+/*============== Header Css Start ==============*/
+.navtext {
+  font-size: calc(var(--font-3) * var(--FONT-ADJUST-NAV));
+}
+/*============== Header Css End ==============*/
+/*============== Hero Slider Css Start ==============*/
+.slideshow .slideshow__slider .hero__content--transparent {
+  max-width: 450px;
+}
+/*============== Hero Slider Css End ==============*/
 /*============== Collection Css Start ==============*/
 .collection-hover__button.heading-size-7 {
   font-size: 20px;
