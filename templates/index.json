@@ -450,7 +450,7 @@
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
             "text_size": 3,
             "text_columns": 1,
-            "align_text": "text-center",
+            "align_text": "text-left",
             "bg_color": "",
             "color": "",
             "show_name": false,
