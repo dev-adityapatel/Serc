@@ -170,7 +170,7 @@
             "show_video_popup": false,
             "video_popup_social": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "overlay_opacity": 0,
-            "overlay_color": "#000000",
+            "overlay_color": "rgba(0,0,0,0)",
             "show_overlay_text": false,
             "title": "",
             "heading_size": 7,
