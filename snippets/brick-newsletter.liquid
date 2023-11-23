@@ -66,18 +66,18 @@
           data-aos-order="{{ animation_order }}">{{ text }}</div>
       {%- endif -%}
 
-      {%- assign animation_order = animation_order | plus: 1 -%}
-      <div class="newsletter__wrapper"
-        data-aos="hero"
-        data-aos-anchor="{{ animation_anchor }}"
-        data-aos-order="{{ animation_order }}">
-        {%- render 'newsletter-form', block: block -%}
-      </div>
 
       {%- if show_social_links -%}
         {%- assign animation_order = animation_order | plus: 1 -%}
         {%- render 'social-icons', modifier: 'socials--newsletter', animation_anchor: animation_anchor, animation_order: animation_order -%}
       {%- endif -%}
     </div>
+     {%- assign animation_order = animation_order | plus: 1 -%}
+      <div class="newsletter__wrapper"
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order }}">
+        {%- render 'newsletter-form', block: block -%}
+      </div>
   </div>
 </div>
