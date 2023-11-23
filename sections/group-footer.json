@@ -26,7 +26,7 @@
         "4aca8de2-b10d-4ee5-be96-bc90b59a2d92": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu",
+            "linklist": "collections",
             "title": "",
             "column_width": 25
           }
