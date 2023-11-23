@@ -61,7 +61,7 @@
       "type": "section-supporting-menu",
       "settings": {
         "linklist": "",
-        "footer_payment_enable": false,
+        "footer_payment_enable": true,
         "show_locale_selector": true,
         "show_country_selector": true,
         "show_country_name": false,
