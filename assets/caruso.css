@@ -14,6 +14,9 @@
 .slideshow .slideshow__slider .hero__content--transparent {
   max-width: 450px;
 }
+.slideshow .hero__title {
+  line-height: 60px;
+}
 /*============== Hero Slider Css End ==============*/
 /*============== Collection Css Start ==============*/
 .collection-hover__button.heading-size-7 {
