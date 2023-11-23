@@ -71,8 +71,8 @@
         "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "transition": "slide",
-        "show_arrows": false,
-        "autoplay": false,
+        "show_arrows": true,
+        "autoplay": true,
         "autoplay_speed": 8
       }
     },
