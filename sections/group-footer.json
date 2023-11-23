@@ -34,7 +34,7 @@
         "1bc0e272-1e46-482e-8d9e-fd344e45bbee": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu",
+            "linklist": "privacy-policy",
             "title": "",
             "column_width": 25
           }
