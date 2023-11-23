@@ -72,7 +72,7 @@
         "width": "wrapper--full",
         "transition": "slide",
         "show_arrows": true,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 8
       }
     },
