@@ -10,7 +10,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/logo-transparent-crop_1_628f56f8-ba4b-44d5-adf6-f6666a6db42e.png",
             "image_width": 150,
-            "title": "Contact",
+            "title": "",
             "text": "<p><strong>Address:<\/strong> 15030 Ventura Blvd Suite 11, Sherman Oaks, California, 91403<\/p><p><strong>Email: <\/strong>xyz@gmail.com<br\/><strong>Phone No:<\/strong> 123.456.7890<\/p>",
             "column_width": 25
           }
