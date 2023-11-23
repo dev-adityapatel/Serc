@@ -67,11 +67,11 @@
         "096fe2c8-e40b-4e09-a2e7-b64076180b3d"
       ],
       "settings": {
-        "height": "screen-height-two-thirds",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
         "width": "wrapper--full",
         "transition": "slide",
-        "show_arrows": true,
+        "show_arrows": false,
         "autoplay": false,
         "autoplay_speed": 8
       }
@@ -341,7 +341,7 @@
         "width": "wrapper--full-padded",
         "image_1": "shopify:\/\/shop_images\/Rectangle_46.png",
         "link": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_height": "image-height--mobile",
         "flex_align_desktop": "align--middle-center-desktop",
         "flex_align_mobile": "align--middle-center-mobile",
         "overlay_opacity": 50,
