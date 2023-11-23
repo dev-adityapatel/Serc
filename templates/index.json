@@ -470,7 +470,7 @@
       "settings": {
         "height": "image-height",
         "mobile_height": "image-height--mobile",
-        "width": "wrapper",
+        "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
         "padding_top": 0,
