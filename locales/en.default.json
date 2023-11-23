@@ -527,5 +527,10 @@
       "newsletter_signup": "Newsletter Signup",
       "login": "Login"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
