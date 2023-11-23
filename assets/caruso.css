@@ -59,5 +59,12 @@
   .main-collection .collections-hover__actions {
     align-items: flex-start;
   }
+  .brick__block--text .hero__content--compact {
+    text-align: left;
+    width: 50%;
+  }
+  .newsletter__wrapper {
+    width: 50%;
+  }
 }
 /*============== Min width Media Query Css End ==============*/
