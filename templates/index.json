@@ -220,7 +220,7 @@
         "width": "wrapper",
         "borders": false,
         "gutters": false,
-        "reverse_blocks": false,
+        "reverse_blocks": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
