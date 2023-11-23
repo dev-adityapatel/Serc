@@ -11,8 +11,8 @@
 }
 /*============== Header Css End ==============*/
 /*============== Hero Slider Css Start ==============*/
-.slideshow .slideshow__slider .hero__content--transparent {
-  max-width: 450px;
+.slideshow .hero__title {
+  max-width: 370px;
 }
 .slideshow .hero__description {
   max-width: 460px;
