@@ -17,6 +17,7 @@
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
     --item-count: {{ blocks_size }};
+    background-color: {{ section.settings.footer_bg }};
   }
 
   {% unless border_color == 'rgba(0,0,0,0)' or border_color == blank %}
@@ -213,6 +214,16 @@
       "step": 5,
       "unit": "px",
       "default": 150
+    },
+    {
+      "type": "header",
+      "content": "Footer Background Color"
+    },
+    {
+      "type": "color",
+      "id": "footer_bg",
+      "label": "Background Color",
+      "default": "#ffffff"
     },
     {
       "type": "header",
