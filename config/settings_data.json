@@ -15,8 +15,8 @@
     "menu_transparent_color": "#ffffff",
     "footer_bg": "#ffffff",
     "footer_border": "#212121",
-    "footer_text": "#212121",
-    "footer_link": "#212121",
+    "footer_text": "#f7f9fa",
+    "footer_link": "#ffffff",
     "type_heading_font": "cardo_n4",
     "type_heading_size": 115,
     "type_base_font": "avenir_next_n4",
@@ -56,7 +56,10 @@
     "submenu_link_hover_color": "#AB8C52",
     "footer_link_hover": "#212121",
     "enable_free_shipping_message": true,
-    "sale_background_color": "#be563f"
+    "sale_background_color": "#be563f",
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Clean": {

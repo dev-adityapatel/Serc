@@ -49,7 +49,7 @@
       "settings": {
         "logo": "{{ shop.brand.logo }}",
         "logo_image_width": 150,
-        "footer_bg": "#ffffff",
+        "footer_bg": "#212121",
         "overlay_opacity": 75,
         "overlay_color": "#ffffff",
         "border_color": "#212121",
