@@ -6,7 +6,7 @@
 }
 /*============== Heading Css End ==============*/
 /*============== Header Css Start ==============*/
-.navtext {
+.navlink .navtext {
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-NAV));
 }
 /*============== Header Css End ==============*/
