@@ -129,7 +129,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "width": "wrapper",
-        "overlay_opacity": 20,
+        "overlay_opacity": 0,
         "overlay_color": "#ffffff",
         "show_overlay_text": false,
         "heading_size": 7,
