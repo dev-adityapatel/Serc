@@ -23,6 +23,9 @@
 .slideshow .hero__description {
   line-height: 26px;
 }
+.slideshow .hero__content__wrapper a {
+  padding: 13px 39px;
+}
 /*============== Hero Slider Css End ==============*/
 /*============== Collection Css Start ==============*/
 .collection-hover__button.heading-size-7 {
