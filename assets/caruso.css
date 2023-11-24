@@ -90,4 +90,11 @@
   .brick__block__text {
     flex-direction: column;
   }
+  .newsletter-form {
+    margin: 0 auto;
+  }
+  .brick__block__text .hero__content {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
