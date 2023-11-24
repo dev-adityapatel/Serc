@@ -94,7 +94,6 @@
   data-section-id="{{ section.id }}"
   data-section-type="collections-hover">
   <div class="image-collection_hover collections-hover{% if block_count == 0 %} collections-hover--empty{% endif %} frame {{ desktop_height }}">
-    <h2>Hello</h2>
     {%- if block_count > 0 -%}
       <div class="collections-hover__inner frame__item">
         <div class="collections-hover__content wrapper--full-padded">
@@ -102,6 +101,7 @@
       </div>
        <div class="image-collection-hover__actions collections-hover__actions{% if show_overlay_text %} backdrop--radial{% endif %}"
             style="--overlay-bg: {{ overlay_color }}; --overlay-opacity: {{ overlay_opacity }};">
+              <h2>{{ section.settings.heading }}</h2>
             {{ links }}
           </div>
       <div class="collections-hover__images frame__item">
@@ -126,6 +126,12 @@
       "type": "header",
       "content": "Layout"
     },
+    {
+      "type": "text",
+      "id": "headding",
+      "label": "Heading"
+    },
+
     {
       "type": "select",
       "id": "height",
