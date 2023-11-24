@@ -6,7 +6,7 @@
 }
 {% endstyle %}
 <section class="{{ section.settings.width }}" id="gallery--{{ section.id }}">
-  {% if section.settings.heading ==blank %}
+  {% if section.settings.heading !=blank %}
     <h2>{{ section.settings.heading }}</h2>
   {% endif %}
     <div class="gallery-image">
