@@ -90,6 +90,9 @@
   .brick__block__text {
     flex-direction: column;
   }
+  .newsletter__wrapper {
+    width: 100%;
+  }
   .newsletter-form {
     margin: 0 auto;
   }
