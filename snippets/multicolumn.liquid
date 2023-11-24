@@ -79,7 +79,11 @@
   #SectionColumns--{{ section.id }} {
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
-
+    {%  if section.settings.show_border %}
+     .multicolumn-row {
+        border-top: 1px solid #e3e3e3;
+      }
+     {% endif %}
     {%- unless multicolumn or enable_slider -%}
       --COLUMNS: {{ columns_desktop }};
       --COLUMNS-MEDIUM: {{ columns_medium }};
