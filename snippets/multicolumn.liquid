@@ -102,7 +102,7 @@
   class="section-columns section-padding {{ section.settings.align_text }}"
   data-section-id="{{ section.id }}"
   data-section-type="columns">
-  <div class="{{ section.settings.width }}">
+  <div class="multicolumn {{ section.settings.width }}">
     {%- if has_content -%}
       <div class="grid__heading-holder">
         {%- if heading != blank -%}

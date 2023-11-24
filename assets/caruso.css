@@ -61,6 +61,11 @@
   text-align: center;
 }
 /*============== Tab Collection Css End ==============*/
+/*============== Multicolumn Css Start ==============*/
+.multicolumn {
+  border-top: 1px solid #e3e3e3;
+}
+/*============== Multicolumn Css End ==============*/
 /*============== Min width Media Query Css Start ==============*/
 @media screen and (min-width: 769px) {
   .brick__block--text .hero__content--compact {
