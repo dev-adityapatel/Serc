@@ -125,6 +125,7 @@
         "54fc0ec2-79fd-486f-b2bc-bcf2660c2e2a"
       ],
       "settings": {
+        "headding": "Browse By Collection",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "width": "wrapper",
