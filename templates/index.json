@@ -196,7 +196,7 @@
             "subheading_size": 3,
             "title": "Create Your Own Design",
             "heading_size": 8,
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporus incididunt ut labore et dolore magna aliqua. Amet nisl suscipitis adipiscing bibendum est ultricies integer.  Amet nulla facilisi morbi tempus iaculis urna. Tempus urna et pharetra pharetrausis massa massa ultricies suis amet.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporus incididunt ut labore et dolore magna aliqua. Amet nisl suscipitis adipiscing bibendum est ultricies integer.  <\/p><p>Amet nulla facilisi morbi tempus iaculis urna. Tempus urna et pharetra pharetrausis massa massa ultricies suis amet.<\/p>",
             "text_size": 4,
             "button_text": "Custom Design",
             "button_url": "",
@@ -548,6 +548,7 @@
       ],
       "settings": {
         "title": "",
+        "show_border": true,
         "heading_size": 5,
         "description": "",
         "align_text": "text-center",
