@@ -29,7 +29,7 @@
     "btn_secondary_bg_color": "#ab8c52",
     "btn_secondary_text_color": "#ffffff",
     "btn_secondary_border_color": "#ab8c52",
-    "grid_style": "compact",
+    "grid_style": "classic",
     "product_grid_outline": false,
     "show_scroll_top_button": true,
     "instagram_link": "#",
