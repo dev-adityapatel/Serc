@@ -1,16 +1,5 @@
+{{ 'section-gallery.css' | asset_url | stylesheet_tag }}
 {% style %}
-  .gallery-image {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  .gallery {
-    width: 25%;
-  }
-  .gallery img {
-    width: 100%;
-    height: auto;
-  }
   #gallery--{{ section.id }}{
   padding-top:{{-section.settings.padding_top-}}px !important;
   padding-bottom:{{-section.settings.padding_bottom-}}px !important;
