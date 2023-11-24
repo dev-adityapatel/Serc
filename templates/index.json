@@ -201,7 +201,7 @@
             "button_text": "Custom Design",
             "button_url": "",
             "button_type": "btn--secondary",
-            "button_size": "btn--large",
+            "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
             "show_social_links": false,
