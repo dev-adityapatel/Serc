@@ -135,7 +135,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 80,
-        "padding_bottom": 60
+        "padding_bottom": 40
       }
     },
     "featured-collection": {
@@ -158,7 +158,7 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 20,
+        "padding_top": 60,
         "padding_bottom": 40
       }
     },
