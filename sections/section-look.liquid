@@ -144,15 +144,15 @@
       <div class="look__image look__image--fullheight">
         <div class="look__image-container">
           {%- render 'image' image: section.settings.image, sizes: '(min-width: 750px) 50vw, 100vw', aspect_ratio: image_aspect_ratio, modifier: 'look__image-bg', placeholder: 'collection-1' -%}
+          <div class="xyz">
+          <h2>Hello</h2>
+         </div>
           {%- if show_dots and look_dots != blank -%}
             <div class="look__dots desktop">
               {{ look_dots }}
             </div>
           {%- endif -%}
         </div>
-         <div class="xyz">
-          <h2>Hello</h2>
-         </div>
         <div class="look__actions mobile">
           <button type="button"
             class="btn {{ button_style }} {{ section.settings.button_size }} {{ section.settings.button_type }}"
