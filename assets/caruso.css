@@ -5,6 +5,11 @@
   font-weight: 700;
 }
 /*============== Heading Css End ==============*/
+/*============== Button Css Start ==============*/
+.btn {
+  padding: 13px 39px;
+}
+/*============== Button Css End ==============*/
 /*============== Header Css Start ==============*/
 .navlink .navtext {
   font-size: calc(var(--font-3) * var(--FONT-ADJUST-NAV));
@@ -22,9 +27,6 @@
 }
 .slideshow .hero__description {
   line-height: 26px;
-}
-.slideshow .hero__content__wrapper a {
-  padding: 13px 39px;
 }
 /*============== Hero Slider Css End ==============*/
 /*============== Collection Css Start ==============*/
