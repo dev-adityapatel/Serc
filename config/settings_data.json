@@ -42,6 +42,7 @@
     "sale_text_color": "#af7b88",
     "badge_bg_color": "#ffffff",
     "badge_text_color": "#212121",
+    "favicon": "shopify:\/\/shop_images\/Fav-Icon.png",
     "show_free_shipping_message": true,
     "message": "You are ||amount|| away from free shipping.",
     "free_shipping_limit": "200",
