@@ -54,7 +54,7 @@
         "main_menu_linklist": "header-menu",
         "mobile_menu_linklist": "",
         "enable_search": true,
-        "show_social_icons": true,
+        "show_social_icons": false,
         "show_locale_selector": true,
         "show_country_selector": true,
         "show_country_name": false,
