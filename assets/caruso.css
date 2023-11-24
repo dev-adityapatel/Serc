@@ -95,7 +95,7 @@
 }
 /*============== Min width Media Query Css End ==============*/
 @media screen and (max-width: 768px) {
-  .brick__block__text {
+  .newsletter-section .brick__block__text {
     flex-direction: column;
   }
   .newsletter__wrapper {
@@ -104,7 +104,7 @@
   .newsletter-form {
     margin: 0 auto;
   }
-  .brick__block__text .hero__content {
+  .newsletter-section .brick__block__text .hero__content {
     text-align: center;
     margin-bottom: 15px;
   }
