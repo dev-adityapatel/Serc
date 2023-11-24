@@ -71,10 +71,10 @@
 /*============== Multicolumn Css End ==============*/
 /*============== Min width Media Query Css Start ==============*/
 @media screen and (min-width: 769px) {
-  .brick__block--text .hero__content--compact {
+  .newsletter-section .brick__block--text .hero__content--compact {
     width: 50%;
   }
-  .newsletter__wrapper {
+  .newsletter-section .newsletter__wrapper {
     width: 50%;
   }
 }
@@ -95,7 +95,7 @@
 }
 /*============== Min width Media Query Css End ==============*/
 @media screen and (max-width: 768px) {
-  .brick__block__text {
+  .newsletter-section .brick__block__text {
     flex-direction: column;
   }
   .newsletter__wrapper {
@@ -104,7 +104,7 @@
   .newsletter-form {
     margin: 0 auto;
   }
-  .brick__block__text .hero__content {
+  .newsletter-section .brick__block__text .hero__content {
     text-align: center;
     margin-bottom: 15px;
   }
