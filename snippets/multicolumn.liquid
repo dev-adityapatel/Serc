@@ -79,7 +79,11 @@
   #SectionColumns--{{ section.id }} {
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
-
+    {%  if section.settings.show_border %}
+     .multicolumn-row {
+        border-top: 1px solid #e3e3e3;
+      }
+     {% endif %}
     {%- unless multicolumn or enable_slider -%}
       --COLUMNS: {{ columns_desktop }};
       --COLUMNS-MEDIUM: {{ columns_medium }};
@@ -102,7 +106,7 @@
   class="section-columns section-padding {{ section.settings.align_text }}"
   data-section-id="{{ section.id }}"
   data-section-type="columns">
-  <div class="multicolumn {{ section.settings.width }}">
+  <div class="multicolumn-row {{ section.settings.width }}">
     {%- if has_content -%}
       <div class="grid__heading-holder">
         {%- if heading != blank -%}

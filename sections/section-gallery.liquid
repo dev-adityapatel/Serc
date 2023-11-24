@@ -6,7 +6,9 @@
 }
 {% endstyle %}
 <section class="{{ section.settings.width }}" id="gallery--{{ section.id }}">
-  <h2>{{ section.settings.heading }}</h2>
+  {% if section.settings.heading !=blank %}
+    <h2>{{ section.settings.heading }}</h2>
+  {% endif %}
     <div class="gallery-image">
         {%- for block in section.blocks -%}
           <div class="gallery">
