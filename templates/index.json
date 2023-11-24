@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/slideshow.png",
-            "mobile_image": "shopify:\/\/shop_images\/mob-slide1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mid-Banner.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -37,7 +37,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/slideshow.png",
-            "mobile_image": "shopify:\/\/shop_images\/mob-slide1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Mid-Banner.jpg",
             "overlay_opacity": 0,
             "overlay_color": "#000000",
             "show_overlay_text": false,
@@ -135,7 +135,7 @@
         "bg_color": "",
         "color": "",
         "padding_top": 80,
-        "padding_bottom": 60
+        "padding_bottom": 40
       }
     },
     "featured-collection": {
@@ -158,7 +158,7 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 20,
+        "padding_top": 60,
         "padding_bottom": 40
       }
     },
@@ -237,8 +237,8 @@
             "featured_collection": "bridal-designs",
             "show_image": true,
             "align_with_product_images": false,
-            "image": "shopify:\/\/shop_images\/Rectangle_73.png",
-            "overlay_opacity": 0,
+            "image": "shopify:\/\/shop_images\/Bridal.png",
+            "overlay_opacity": 40,
             "overlay_color": "#000000",
             "description": "<h3>Bridal<\/h3>",
             "para": "<p>Soon-to-be staples in your rotation<\/p>",
@@ -311,8 +311,8 @@
         "rows": 3,
         "bg_color": "",
         "color": "",
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "hero": {
@@ -373,8 +373,8 @@
         "layout_mobile": "carousel",
         "bg_color": "",
         "color": "",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "lookbook": {
@@ -475,8 +475,8 @@
         "width": "wrapper--full-padded",
         "bg_color": "",
         "color": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "9f61bf7f-8f4d-4620-b9c1-ab30ba6581f5": {
@@ -566,25 +566,25 @@
         "a0f18d19-ded6-47d5-aae5-7293467b42a6": {
           "type": "gallery",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_74.png"
+            "image": "shopify:\/\/shop_images\/1.jpg"
           }
         },
         "d00e51e4-c6ad-4467-a7e5-ea1f0ba0a055": {
           "type": "gallery",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_75.png"
+            "image": "shopify:\/\/shop_images\/2.jpg"
           }
         },
         "3053520f-9d5c-490a-89cc-65b4faf359ca": {
           "type": "gallery",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_77.png"
+            "image": "shopify:\/\/shop_images\/3.jpg"
           }
         },
         "10f73993-7398-4d73-86e8-3d02e2f5a915": {
           "type": "gallery",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_76.png"
+            "image": "shopify:\/\/shop_images\/4.jpg"
           }
         }
       },
