@@ -130,7 +130,7 @@
         "mobile_height": "image-height--mobile",
         "width": "wrapper",
         "overlay_opacity": 20,
-        "overlay_color": "#000000",
+        "overlay_color": "#ffffff",
         "show_overlay_text": false,
         "heading_size": 7,
         "bg_color": "",
