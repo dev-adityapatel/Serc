@@ -197,7 +197,7 @@
             "title": "Create Your Own Design",
             "heading_size": 8,
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporus incididunt ut labore et dolore magna aliqua. Amet nisl suscipitis adipiscing bibendum est ultricies integer.  <\/p><p>Amet nulla facilisi morbi tempus iaculis urna. Tempus urna et pharetra pharetrausis massa massa ultricies suis amet.<\/p>",
-            "text_size": 4,
+            "text_size": 3,
             "button_text": "Custom Design",
             "button_url": "",
             "button_type": "btn--secondary",
