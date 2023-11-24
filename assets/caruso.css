@@ -71,10 +71,10 @@
 /*============== Multicolumn Css End ==============*/
 /*============== Min width Media Query Css Start ==============*/
 @media screen and (min-width: 769px) {
-  .brick__block--text .hero__content--compact {
+  .newsletter-section .brick__block--text .hero__content--compact {
     width: 50%;
   }
-  .newsletter__wrapper {
+  .newsletter-section .newsletter__wrapper {
     width: 50%;
   }
 }
