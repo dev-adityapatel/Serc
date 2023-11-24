@@ -22,7 +22,7 @@
             "first_button_text": "Shop Now",
             "first_button_link": "shopify:\/\/collections\/all",
             "first_button_type": "btn--secondary",
-            "first_button_size": "btn--large",
+            "first_button_size": "",
             "first_button_style": "btn--solid",
             "first_button_show_arrow": false,
             "second_button_text": "",
